@@ -940,12 +940,21 @@
         "percent": 100
       },
       "russian": {
-        "a": 0,
-        "b": 0,
-        "l": null,
-        "p": false,
-        "da": [],
-        "percent": 0
+        "a": 1,
+        "b": 9,
+        "l": "06.02.2026, 18:28:26",
+        "p": true,
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 9,
+            "t": 10,
+            "p": true,
+            "tm": "18:28:26",
+            "percent": 90
+          }
+        ],
+        "percent": 90
       }
     },
     {
@@ -1574,6 +1583,16 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 100
+    },
+    {
+      "s": "Харисов Роберт",
+      "d": "06.02.2026, 18:28:26",
+      "c": 9,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "russian",
+      "percent": 90
     }
   ],
   "ds": {
@@ -1618,8 +1637,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 32,
-      "pa": 27,
+      "ta": 33,
+      "pa": 28,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1644,8 +1663,8 @@
         "avg_percent": 78
       },
       "russian_stats": {
-        "total": 15,
-        "passed": 12,
+        "total": 16,
+        "passed": 13,
         "avg_percent": 85
       }
     }
@@ -1851,13 +1870,13 @@
     },
     "2026-02-06": {
       "total_students": 15,
-      "total_attempts": 32,
-      "passed_attempts": 27,
-      "success_rate": 84,
+      "total_attempts": 33,
+      "passed_attempts": 28,
+      "success_rate": 85,
       "math_attempts": 17,
       "math_success_rate": 88,
-      "russian_attempts": 15,
-      "russian_success_rate": 80,
+      "russian_attempts": 16,
+      "russian_success_rate": 81,
       "top_students": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
