@@ -33,7 +33,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -58,7 +59,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -75,7 +77,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -107,7 +110,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -132,7 +136,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -149,7 +154,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -174,7 +180,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -199,7 +206,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -224,7 +232,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -249,7 +258,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -274,7 +284,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -291,7 +302,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -316,7 +328,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -333,7 +346,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -358,7 +372,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -383,7 +398,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -408,7 +424,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -433,7 +450,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -458,7 +476,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -483,7 +502,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -508,7 +528,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -533,7 +554,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -558,7 +580,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -583,7 +606,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -608,7 +632,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -633,7 +658,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -650,7 +676,8 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     },
     {
@@ -682,11 +709,13 @@
         "b": 0,
         "l": null,
         "p": false,
-        "da": []
+        "da": [],
+        "percent": 0
       }
     }
   ],
   "c": [
+    "Бурнашов Иван",
     "Харисов Роберт"
   ],
   "att": [
@@ -697,7 +726,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 100
     },
     {
       "s": "Балдаков Степан",
@@ -706,7 +736,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 100
     },
     {
       "s": "Валиуллина Вероника",
@@ -715,7 +746,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 80
     },
     {
       "s": "Лазарев Никита",
@@ -724,7 +756,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 100
     },
     {
       "s": "Маргарян Артём",
@@ -733,7 +766,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 100
     },
     {
       "s": "Лицкевич Ярослав",
@@ -742,7 +776,8 @@
       "t": 10,
       "p": false,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 60
     },
     {
       "s": "Терпигорьевна Алиса",
@@ -751,7 +786,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 100
     },
     {
       "s": "Новиков Павел",
@@ -760,7 +796,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 80
     },
     {
       "s": "Серебрякова Милана",
@@ -769,7 +806,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 80
     },
     {
       "s": "Фукалова Арина",
@@ -778,7 +816,8 @@
       "t": 10,
       "p": false,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 50
     },
     {
       "s": "Валиуллин Владимир",
@@ -787,7 +826,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 100
     },
     {
       "s": "Ненастьева Василиса",
@@ -796,7 +836,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 80
     },
     {
       "s": "Боталова Кира",
@@ -805,7 +846,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 70
     },
     {
       "s": "Абракомова Анастасия",
@@ -814,7 +856,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 100
     },
     {
       "s": "Елизарова Влада",
@@ -823,7 +866,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 80
     },
     {
       "s": "Первушина Вероника",
@@ -832,7 +876,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 100
     },
     {
       "s": "Чистякова Виктория",
@@ -841,7 +886,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 70
     },
     {
       "s": "Чистякова Виктория",
@@ -850,7 +896,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 70
     },
     {
       "s": "Пермяков Дмитрий",
@@ -859,7 +906,8 @@
       "t": 10,
       "p": false,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 40
     },
     {
       "s": "Любимов Семен",
@@ -868,7 +916,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 90
     },
     {
       "s": "Тимофеев Константин",
@@ -877,7 +926,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 100
     },
     {
       "s": "Власова Мария",
@@ -886,7 +936,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 70
     },
     {
       "s": "Гудошникова Виктория",
@@ -895,7 +946,8 @@
       "t": 10,
       "p": false,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 60
     },
     {
       "s": "Калинин Егор",
@@ -904,7 +956,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 90
     },
     {
       "s": "Абросимова Кира",
@@ -913,7 +966,8 @@
       "t": 10,
       "p": true,
       "day": "2026-02-05",
-      "type": "math"
+      "type": "math",
+      "percent": 70
     }
   ],
   "ds": {
@@ -944,7 +998,230 @@
         "Гудошникова Виктория",
         "Калинин Егор",
         "Абросимова Кира"
-      ]
+      ],
+      "avg_percent": 82,
+      "math_stats": {
+        "total": 25,
+        "passed": 21,
+        "avg_percent": 82
+      },
+      "russian_stats": {
+        "total": 0,
+        "passed": 0,
+        "avg_percent": 0
+      }
+    },
+    "2026-02-06": {
+      "ta": 0,
+      "pa": 0,
+      "st": [],
+      "avg_percent": 0,
+      "math_stats": {
+        "total": 0,
+        "passed": 0,
+        "avg_percent": 0
+      },
+      "russian_stats": {
+        "total": 0,
+        "passed": 0,
+        "avg_percent": 0
+      }
+    }
+  },
+  "russian_words": [
+    {
+      "word": "слон",
+      "nominative": "слоны",
+      "genitive": "слонов",
+      "dative": "слонам",
+      "accusative": "слонов",
+      "instrumental": "слонами",
+      "prepositional": "слонах"
+    },
+    {
+      "word": "волк",
+      "nominative": "волки",
+      "genitive": "волков",
+      "dative": "волкам",
+      "accusative": "волков",
+      "instrumental": "волками",
+      "prepositional": "волках"
+    },
+    {
+      "word": "день",
+      "nominative": "дни",
+      "genitive": "дней",
+      "dative": "дням",
+      "accusative": "дни",
+      "instrumental": "днями",
+      "prepositional": "днях"
+    },
+    {
+      "word": "рояль",
+      "nominative": "рояли",
+      "genitive": "роялей",
+      "dative": "роялям",
+      "accusative": "рояли",
+      "instrumental": "роялями",
+      "prepositional": "роялях"
+    },
+    {
+      "word": "стол",
+      "nominative": "столы",
+      "genitive": "столов",
+      "dative": "столам",
+      "accusative": "столы",
+      "instrumental": "столами",
+      "prepositional": "столах"
+    },
+    {
+      "word": "окно",
+      "nominative": "окна",
+      "genitive": "окон",
+      "dative": "окнам",
+      "accusative": "окна",
+      "instrumental": "окнами",
+      "prepositional": "окнах"
+    },
+    {
+      "word": "город",
+      "nominative": "города",
+      "genitive": "городов",
+      "dative": "городам",
+      "accusative": "города",
+      "instrumental": "городами",
+      "prepositional": "городах"
+    },
+    {
+      "word": "глаз",
+      "nominative": "глаза",
+      "genitive": "глаз",
+      "dative": "глазам",
+      "accusative": "глаза",
+      "instrumental": "глазами",
+      "prepositional": "глазах"
+    },
+    {
+      "word": "ухо",
+      "nominative": "уши",
+      "genitive": "ушей",
+      "dative": "ушам",
+      "accusative": "уши",
+      "instrumental": "ушами",
+      "prepositional": "ушах"
+    },
+    {
+      "word": "дерево",
+      "nominative": "деревья",
+      "genitive": "деревьев",
+      "dative": "деревьям",
+      "accusative": "деревья",
+      "instrumental": "деревьями",
+      "prepositional": "деревьях"
+    },
+    {
+      "word": "лист",
+      "nominative": "листья",
+      "genitive": "листьев",
+      "dative": "листьям",
+      "accusative": "листья",
+      "instrumental": "листьями",
+      "prepositional": "листьях"
+    },
+    {
+      "word": "стул",
+      "nominative": "стулья",
+      "genitive": "стульев",
+      "dative": "стульям",
+      "accusative": "стулья",
+      "instrumental": "стульями",
+      "prepositional": "стульях"
+    },
+    {
+      "word": "перо",
+      "nominative": "перья",
+      "genitive": "перьев",
+      "dative": "перьям",
+      "accusative": "перья",
+      "instrumental": "перьями",
+      "prepositional": "перьях"
+    },
+    {
+      "word": "книга",
+      "nominative": "книги",
+      "genitive": "книг",
+      "dative": "книгам",
+      "accusative": "книги",
+      "instrumental": "книгами",
+      "prepositional": "книгах"
+    },
+    {
+      "word": "рука",
+      "nominative": "руки",
+      "genitive": "рук",
+      "dative": "рукам",
+      "accusative": "руки",
+      "instrumental": "руками",
+      "prepositional": "руках"
+    },
+    {
+      "word": "нога",
+      "nominative": "ноги",
+      "genitive": "ног",
+      "dative": "ногам",
+      "accusative": "ноги",
+      "instrumental": "ногами",
+      "prepositional": "ногах"
+    },
+    {
+      "word": "океан",
+      "nominative": "океаны",
+      "genitive": "океанов",
+      "dative": "океанам",
+      "accusative": "океаны",
+      "instrumental": "океанами",
+      "prepositional": "океанах"
+    },
+    {
+      "word": "гора",
+      "nominative": "горы",
+      "genitive": "гор",
+      "dative": "горам",
+      "accusative": "горы",
+      "instrumental": "горами",
+      "prepositional": "горах"
+    },
+    {
+      "word": "река",
+      "nominative": "реки",
+      "genitive": "рек",
+      "dative": "рекам",
+      "accusative": "реки",
+      "instrumental": "реками",
+      "prepositional": "реках"
+    },
+    {
+      "word": "поле",
+      "nominative": "поля",
+      "genitive": "полей",
+      "dative": "полям",
+      "accusative": "поля",
+      "instrumental": "полями",
+      "prepositional": "полях"
+    }
+  ],
+  "calendar_stats": {
+    "2026-02-05": {
+      "total_students": 23,
+      "total_attempts": 25,
+      "passed_attempts": 21,
+      "success_rate": 84,
+      "math_attempts": 25,
+      "math_success_rate": 84,
+      "russian_attempts": 0,
+      "russian_success_rate": 0,
+      "top_students": ["Балдаков Степан", "Терпигорьевна Алиса", "Лазарев Никита"],
+      "avg_percentage": 82
     }
   }
 }
