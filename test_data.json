@@ -293,10 +293,10 @@
     {
       "n": "Гудошникова Виктория",
       "math": {
-        "a": 1,
-        "b": 6,
-        "l": "05.02.2026, 14:56:26",
-        "p": false,
+        "a": 2,
+        "b": 7,
+        "l": "06.02.2026, 18:18:55",
+        "p": true,
         "da": [
           {
             "d": "2026-02-05",
@@ -304,8 +304,17 @@
             "t": 10,
             "p": false,
             "tm": "14:56:26"
+          },
+          {
+            "d": "2026-02-06",
+            "c": 7,
+            "t": 10,
+            "p": true,
+            "tm": "18:18:55",
+            "percent": 70
           }
-        ]
+        ],
+        "percent": 70
       },
       "russian": {
         "a": 0,
@@ -1498,6 +1507,16 @@
       "day": "2026-02-06",
       "type": "russian",
       "percent": 50
+    },
+    {
+      "s": "Гудошникова Виктория",
+      "d": "06.02.2026, 18:18:55",
+      "c": 7,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "math",
+      "percent": 70
     }
   ],
   "ds": {
@@ -1542,8 +1561,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 28,
-      "pa": 23,
+      "ta": 29,
+      "pa": 24,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1557,12 +1576,13 @@
         "Новиков Павел",
         "Валиуллин Владимир",
         "Чистякова Виктория",
-        "Елизарова Влада"
+        "Елизарова Влада",
+        "Гудошникова Виктория"
       ],
-      "avg_percent": 81,
+      "avg_percent": 80,
       "math_stats": {
-        "total": 14,
-        "passed": 12,
+        "total": 15,
+        "passed": 13,
         "avg_percent": 77
       },
       "russian_stats": {
@@ -1772,12 +1792,12 @@
       "avg_percentage": 82
     },
     "2026-02-06": {
-      "total_students": 13,
-      "total_attempts": 28,
-      "passed_attempts": 23,
-      "success_rate": 82,
-      "math_attempts": 14,
-      "math_success_rate": 86,
+      "total_students": 14,
+      "total_attempts": 29,
+      "passed_attempts": 24,
+      "success_rate": 83,
+      "math_attempts": 15,
+      "math_success_rate": 87,
       "russian_attempts": 14,
       "russian_success_rate": 79,
       "top_students": [
@@ -1785,7 +1805,7 @@
         "Терпигорьевна Алиса",
         "Калинин Егор"
       ],
-      "avg_percentage": 81
+      "avg_percentage": 80
     }
   }
 }
