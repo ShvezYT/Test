@@ -643,9 +643,9 @@
     {
       "n": "Ненастьева Василиса",
       "math": {
-        "a": 1,
+        "a": 2,
         "b": 8,
-        "l": "05.02.2026, 13:53:02",
+        "l": "06.02.2026, 18:33:29",
         "p": true,
         "da": [
           {
@@ -654,8 +654,17 @@
             "t": 10,
             "p": true,
             "tm": "13:53:02"
+          },
+          {
+            "d": "2026-02-06",
+            "c": 8,
+            "t": 10,
+            "p": true,
+            "tm": "18:33:29",
+            "percent": 80
           }
-        ]
+        ],
+        "percent": 80
       },
       "russian": {
         "a": 0,
@@ -1631,6 +1640,16 @@
       "day": "2026-02-06",
       "type": "russian",
       "percent": 100
+    },
+    {
+      "s": "Ненастьева Василиса",
+      "d": "06.02.2026, 18:33:29",
+      "c": 8,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "math",
+      "percent": 80
     }
   ],
   "ds": {
@@ -1675,8 +1694,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 35,
-      "pa": 30,
+      "ta": 36,
+      "pa": 31,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1693,12 +1712,13 @@
         "Елизарова Влада",
         "Гудошникова Виктория",
         "Харисов Роберт",
-        "Боталова Кира"
+        "Боталова Кира",
+        "Ненастьева Василиса"
       ],
       "avg_percent": 82,
       "math_stats": {
-        "total": 18,
-        "passed": 16,
+        "total": 19,
+        "passed": 17,
         "avg_percent": 79
       },
       "russian_stats": {
@@ -1908,11 +1928,11 @@
       "avg_percentage": 82
     },
     "2026-02-06": {
-      "total_students": 16,
-      "total_attempts": 35,
-      "passed_attempts": 30,
+      "total_students": 17,
+      "total_attempts": 36,
+      "passed_attempts": 31,
       "success_rate": 86,
-      "math_attempts": 18,
+      "math_attempts": 19,
       "math_success_rate": 89,
       "russian_attempts": 17,
       "russian_success_rate": 82,
