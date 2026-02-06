@@ -621,12 +621,21 @@
         "percent": 70
       },
       "russian": {
-        "a": 0,
-        "b": 0,
-        "l": null,
-        "p": false,
-        "da": [],
-        "percent": 0
+        "a": 1,
+        "b": 8,
+        "l": "06.02.2026, 13:50:30",
+        "p": true,
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 8,
+            "t": 10,
+            "p": true,
+            "tm": "13:50:30",
+            "percent": 80
+          }
+        ],
+        "percent": 80
       }
     },
     {
@@ -1101,6 +1110,16 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 70
+    },
+    {
+      "s": "Серебрякова Милана",
+      "d": "06.02.2026, 13:50:30",
+      "c": 8,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "russian",
+      "percent": 80
     }
   ],
   "ds": {
@@ -1145,24 +1164,24 @@
       }
     },
     "2026-02-06": {
-      "ta": 7,
-      "pa": 7,
+      "ta": 8,
+      "pa": 8,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
         "Калинин Егор",
         "Серебрякова Милана"
       ],
-      "avg_percent": 94,
+      "avg_percent": 93,
       "math_stats": {
         "total": 4,
         "passed": 4,
         "avg_percent": 90
       },
       "russian_stats": {
-        "total": 3,
-        "passed": 3,
-        "avg_percent": 100
+        "total": 4,
+        "passed": 4,
+        "avg_percent": 95
       }
     }
   },
@@ -1367,19 +1386,19 @@
     },
     "2026-02-06": {
       "total_students": 4,
-      "total_attempts": 7,
-      "passed_attempts": 7,
+      "total_attempts": 8,
+      "passed_attempts": 8,
       "success_rate": 100,
       "math_attempts": 4,
       "math_success_rate": 100,
-      "russian_attempts": 3,
+      "russian_attempts": 4,
       "russian_success_rate": 100,
       "top_students": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
         "Калинин Егор"
       ],
-      "avg_percentage": 94
+      "avg_percentage": 93
     }
   }
 }
