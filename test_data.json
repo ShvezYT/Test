@@ -597,12 +597,21 @@
         "percent": 60
       },
       "russian": {
-        "a": 0,
-        "b": 0,
-        "l": null,
-        "p": false,
-        "da": [],
-        "percent": 0
+        "a": 1,
+        "b": 8,
+        "l": "06.02.2026, 14:58:00",
+        "p": true,
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 8,
+            "t": 10,
+            "p": true,
+            "tm": "14:58:00",
+            "percent": 80
+          }
+        ],
+        "percent": 80
       }
     },
     {
@@ -1329,6 +1338,16 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 60
+    },
+    {
+      "s": "Новиков Павел",
+      "d": "06.02.2026, 14:58:00",
+      "c": 8,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "russian",
+      "percent": 80
     }
   ],
   "ds": {
@@ -1373,8 +1392,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 19,
-      "pa": 15,
+      "ta": 20,
+      "pa": 16,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1387,15 +1406,15 @@
         "Маргарян Артём",
         "Новиков Павел"
       ],
-      "avg_percent": 80,
+      "avg_percent": 81,
       "math_stats": {
         "total": 10,
         "passed": 8,
         "avg_percent": 77
       },
       "russian_stats": {
-        "total": 9,
-        "passed": 7,
+        "total": 10,
+        "passed": 8,
         "avg_percent": 84
       }
     }
@@ -1601,19 +1620,19 @@
     },
     "2026-02-06": {
       "total_students": 10,
-      "total_attempts": 19,
-      "passed_attempts": 15,
-      "success_rate": 79,
+      "total_attempts": 20,
+      "passed_attempts": 16,
+      "success_rate": 80,
       "math_attempts": 10,
       "math_success_rate": 80,
-      "russian_attempts": 9,
-      "russian_success_rate": 78,
+      "russian_attempts": 10,
+      "russian_success_rate": 80,
       "top_students": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
         "Калинин Егор"
       ],
-      "avg_percentage": 80
+      "avg_percentage": 81
     }
   }
 }
