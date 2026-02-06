@@ -923,11 +923,21 @@
     {
       "n": "Харисов Роберт",
       "math": {
-        "a": 0,
-        "b": 0,
-        "l": null,
-        "p": false,
-        "da": []
+        "a": 1,
+        "b": 10,
+        "l": "06.02.2026, 18:27:16",
+        "p": true,
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 10,
+            "t": 10,
+            "p": true,
+            "tm": "18:27:16",
+            "percent": 100
+          }
+        ],
+        "percent": 100
       },
       "russian": {
         "a": 0,
@@ -1554,6 +1564,16 @@
       "day": "2026-02-06",
       "type": "russian",
       "percent": 100
+    },
+    {
+      "s": "Харисов Роберт",
+      "d": "06.02.2026, 18:27:16",
+      "c": 10,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "math",
+      "percent": 100
     }
   ],
   "ds": {
@@ -1598,8 +1618,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 31,
-      "pa": 26,
+      "ta": 32,
+      "pa": 27,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1614,13 +1634,14 @@
         "Валиуллин Владимир",
         "Чистякова Виктория",
         "Елизарова Влада",
-        "Гудошникова Виктория"
+        "Гудошникова Виктория",
+        "Харисов Роберт"
       ],
       "avg_percent": 81,
       "math_stats": {
-        "total": 16,
-        "passed": 14,
-        "avg_percent": 77
+        "total": 17,
+        "passed": 15,
+        "avg_percent": 78
       },
       "russian_stats": {
         "total": 15,
@@ -1829,11 +1850,11 @@
       "avg_percentage": 82
     },
     "2026-02-06": {
-      "total_students": 14,
-      "total_attempts": 31,
-      "passed_attempts": 26,
+      "total_students": 15,
+      "total_attempts": 32,
+      "passed_attempts": 27,
       "success_rate": 84,
-      "math_attempts": 16,
+      "math_attempts": 17,
       "math_success_rate": 88,
       "russian_attempts": 15,
       "russian_success_rate": 80,
