@@ -747,10 +747,10 @@
     {
       "n": "Фукалова Арина",
       "math": {
-        "a": 1,
-        "b": 5,
-        "l": "05.02.2026, 13:49:14",
-        "p": false,
+        "a": 2,
+        "b": 7,
+        "l": "06.02.2026, 13:57:37",
+        "p": true,
         "da": [
           {
             "d": "2026-02-05",
@@ -758,8 +758,17 @@
             "t": 10,
             "p": false,
             "tm": "13:49:14"
+          },
+          {
+            "d": "2026-02-06",
+            "c": 7,
+            "t": 10,
+            "p": true,
+            "tm": "13:57:37",
+            "percent": 70
           }
-        ]
+        ],
+        "percent": 70
       },
       "russian": {
         "a": 0,
@@ -1196,6 +1205,16 @@
       "day": "2026-02-06",
       "type": "russian",
       "percent": 100
+    },
+    {
+      "s": "Фукалова Арина",
+      "d": "06.02.2026, 13:57:37",
+      "c": 7,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "math",
+      "percent": 70
     }
   ],
   "ds": {
@@ -1240,21 +1259,22 @@
       }
     },
     "2026-02-06": {
-      "ta": 12,
-      "pa": 12,
+      "ta": 13,
+      "pa": 13,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
         "Калинин Егор",
         "Серебрякова Милана",
         "Валиуллина Вероника",
-        "Абракомова Анастасия"
+        "Абракомова Анастасия",
+        "Фукалова Арина"
       ],
-      "avg_percent": 94,
+      "avg_percent": 92,
       "math_stats": {
-        "total": 6,
-        "passed": 6,
-        "avg_percent": 90
+        "total": 7,
+        "passed": 7,
+        "avg_percent": 87
       },
       "russian_stats": {
         "total": 6,
@@ -1463,11 +1483,11 @@
       "avg_percentage": 82
     },
     "2026-02-06": {
-      "total_students": 6,
-      "total_attempts": 12,
-      "passed_attempts": 12,
+      "total_students": 7,
+      "total_attempts": 13,
+      "passed_attempts": 13,
       "success_rate": 100,
-      "math_attempts": 6,
+      "math_attempts": 7,
       "math_success_rate": 100,
       "russian_attempts": 6,
       "russian_success_rate": 100,
@@ -1476,7 +1496,7 @@
         "Терпигорьевна Алиса",
         "Калинин Егор"
       ],
-      "avg_percentage": 94
+      "avg_percentage": 92
     }
   }
 }
