@@ -353,9 +353,9 @@
     {
       "n": "Лазарев Никита",
       "math": {
-        "a": 1,
+        "a": 2,
         "b": 10,
-        "l": "05.02.2026, 13:35:08",
+        "l": "06.02.2026, 13:38:16",
         "p": true,
         "da": [
           {
@@ -364,8 +364,17 @@
             "t": 10,
             "p": true,
             "tm": "13:35:08"
+          },
+          {
+            "d": "2026-02-06",
+            "c": 10,
+            "t": 10,
+            "p": true,
+            "tm": "13:38:16",
+            "percent": 100
           }
-        ]
+        ],
+        "percent": 100
       },
       "russian": {
         "a": 0,
@@ -968,6 +977,16 @@
       "day": "2026-02-05",
       "type": "math",
       "percent": 70
+    },
+    {
+      "s": "Лазарев Никита",
+      "d": "06.02.2026, 13:38:16",
+      "c": 10,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "math",
+      "percent": 100
     }
   ],
   "ds": {
@@ -1012,14 +1031,16 @@
       }
     },
     "2026-02-06": {
-      "ta": 0,
-      "pa": 0,
-      "st": [],
-      "avg_percent": 0,
+      "ta": 1,
+      "pa": 1,
+      "st": [
+        "Лазарев Никита"
+      ],
+      "avg_percent": 100,
       "math_stats": {
-        "total": 0,
-        "passed": 0,
-        "avg_percent": 0
+        "total": 1,
+        "passed": 1,
+        "avg_percent": 100
       },
       "russian_stats": {
         "total": 0,
@@ -1226,6 +1247,20 @@
         "Лазарев Никита"
       ],
       "avg_percentage": 82
+    },
+    "2026-02-06": {
+      "total_students": 1,
+      "total_attempts": 1,
+      "passed_attempts": 1,
+      "success_rate": 100,
+      "math_attempts": 1,
+      "math_success_rate": 100,
+      "russian_attempts": 0,
+      "russian_success_rate": 0,
+      "top_students": [
+        "Лазарев Никита"
+      ],
+      "avg_percentage": 100
     }
   }
 }
