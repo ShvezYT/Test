@@ -667,12 +667,21 @@
         "percent": 80
       },
       "russian": {
-        "a": 0,
-        "b": 0,
-        "l": null,
+        "a": 1,
+        "b": 4,
+        "l": "06.02.2026, 18:35:02",
         "p": false,
-        "da": [],
-        "percent": 0
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 4,
+            "t": 10,
+            "p": false,
+            "tm": "18:35:02",
+            "percent": 40
+          }
+        ],
+        "percent": 40
       }
     },
     {
@@ -1650,6 +1659,16 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 80
+    },
+    {
+      "s": "Ненастьева Василиса",
+      "d": "06.02.2026, 18:35:02",
+      "c": 4,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-06",
+      "type": "russian",
+      "percent": 40
     }
   ],
   "ds": {
@@ -1694,7 +1713,7 @@
       }
     },
     "2026-02-06": {
-      "ta": 36,
+      "ta": 37,
       "pa": 31,
       "st": [
         "Лазарев Никита",
@@ -1715,16 +1734,16 @@
         "Боталова Кира",
         "Ненастьева Василиса"
       ],
-      "avg_percent": 82,
+      "avg_percent": 81,
       "math_stats": {
         "total": 19,
         "passed": 17,
         "avg_percent": 79
       },
       "russian_stats": {
-        "total": 17,
+        "total": 18,
         "passed": 14,
-        "avg_percent": 86
+        "avg_percent": 83
       }
     }
   },
@@ -1929,19 +1948,19 @@
     },
     "2026-02-06": {
       "total_students": 17,
-      "total_attempts": 36,
+      "total_attempts": 37,
       "passed_attempts": 31,
-      "success_rate": 86,
+      "success_rate": 84,
       "math_attempts": 19,
       "math_success_rate": 89,
-      "russian_attempts": 17,
-      "russian_success_rate": 82,
+      "russian_attempts": 18,
+      "russian_success_rate": 78,
       "top_students": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
         "Калинин Егор"
       ],
-      "avg_percentage": 82
+      "avg_percentage": 81
     }
   }
 }
