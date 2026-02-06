@@ -771,12 +771,21 @@
         "percent": 70
       },
       "russian": {
-        "a": 0,
-        "b": 0,
-        "l": null,
-        "p": false,
-        "da": [],
-        "percent": 0
+        "a": 1,
+        "b": 8,
+        "l": "06.02.2026, 13:58:54",
+        "p": true,
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 8,
+            "t": 10,
+            "p": true,
+            "tm": "13:58:54",
+            "percent": 80
+          }
+        ],
+        "percent": 80
       }
     },
     {
@@ -1215,6 +1224,16 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 70
+    },
+    {
+      "s": "Фукалова Арина",
+      "d": "06.02.2026, 13:58:54",
+      "c": 8,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "russian",
+      "percent": 80
     }
   ],
   "ds": {
@@ -1259,8 +1278,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 13,
-      "pa": 13,
+      "ta": 14,
+      "pa": 14,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1270,16 +1289,16 @@
         "Абракомова Анастасия",
         "Фукалова Арина"
       ],
-      "avg_percent": 92,
+      "avg_percent": 91,
       "math_stats": {
         "total": 7,
         "passed": 7,
         "avg_percent": 87
       },
       "russian_stats": {
-        "total": 6,
-        "passed": 6,
-        "avg_percent": 97
+        "total": 7,
+        "passed": 7,
+        "avg_percent": 95
       }
     }
   },
@@ -1484,19 +1503,19 @@
     },
     "2026-02-06": {
       "total_students": 7,
-      "total_attempts": 13,
-      "passed_attempts": 13,
+      "total_attempts": 14,
+      "passed_attempts": 14,
       "success_rate": 100,
       "math_attempts": 7,
       "math_success_rate": 100,
-      "russian_attempts": 6,
+      "russian_attempts": 7,
       "russian_success_rate": 100,
       "top_students": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
         "Калинин Егор"
       ],
-      "avg_percentage": 92
+      "avg_percentage": 91
     }
   }
 }
