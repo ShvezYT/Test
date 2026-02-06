@@ -160,12 +160,21 @@
         "percent": 100
       },
       "russian": {
-        "a": 2,
-        "b": 3,
-        "l": "06.02.2026, 11:50:50",
-        "p": false,
-        "da": [],
-        "percent": 30
+        "a": 3,
+        "b": 9,
+        "l": "06.02.2026, 12:58:43",
+        "p": true,
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 9,
+            "t": 10,
+            "p": true,
+            "tm": "12:58:43",
+            "percent": 90
+          }
+        ],
+        "percent": 90
       }
     },
     {
@@ -987,12 +996,22 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 90
+    },
+    {
+      "s": "Бурнашов Иван",
+      "d": "06.02.2026, 12:58:43",
+      "c": 9,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "russian",
+      "percent": 90
     }
   ],
   "ds": {
     "2026-02-06": {
-      "ta": 1,
-      "pa": 1,
+      "ta": 2,
+      "pa": 2,
       "st": [
         "Бурнашов Иван"
       ],
@@ -1003,9 +1022,9 @@
         "avg_percent": 90
       },
       "russian_stats": {
-        "total": 0,
-        "passed": 0,
-        "avg_percent": 0
+        "total": 1,
+        "passed": 1,
+        "avg_percent": 90
       }
     }
   },
@@ -1194,13 +1213,13 @@
   "calendar_stats": {
     "2026-02-06": {
       "total_students": 1,
-      "total_attempts": 1,
-      "passed_attempts": 1,
+      "total_attempts": 2,
+      "passed_attempts": 2,
       "success_rate": 100,
       "math_attempts": 1,
       "math_success_rate": 100,
-      "russian_attempts": 0,
-      "russian_success_rate": 0,
+      "russian_attempts": 1,
+      "russian_success_rate": 100,
       "top_students": [
         "Бурнашов Иван"
       ],
