@@ -159,12 +159,21 @@
         "percent": 90
       },
       "russian": {
-        "a": 0,
-        "b": 0,
-        "l": null,
-        "p": false,
-        "da": [],
-        "percent": 0
+        "a": 1,
+        "b": 10,
+        "l": "06.02.2026, 18:31:31",
+        "p": true,
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 10,
+            "t": 10,
+            "p": true,
+            "tm": "18:31:31",
+            "percent": 100
+          }
+        ],
+        "percent": 100
       }
     },
     {
@@ -1612,6 +1621,16 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 90
+    },
+    {
+      "s": "Боталова Кира",
+      "d": "06.02.2026, 18:31:31",
+      "c": 10,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "russian",
+      "percent": 100
     }
   ],
   "ds": {
@@ -1656,8 +1675,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 34,
-      "pa": 29,
+      "ta": 35,
+      "pa": 30,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1683,9 +1702,9 @@
         "avg_percent": 79
       },
       "russian_stats": {
-        "total": 16,
-        "passed": 13,
-        "avg_percent": 85
+        "total": 17,
+        "passed": 14,
+        "avg_percent": 86
       }
     }
   },
@@ -1890,13 +1909,13 @@
     },
     "2026-02-06": {
       "total_students": 16,
-      "total_attempts": 34,
-      "passed_attempts": 29,
-      "success_rate": 85,
+      "total_attempts": 35,
+      "passed_attempts": 30,
+      "success_rate": 86,
       "math_attempts": 18,
       "math_success_rate": 89,
-      "russian_attempts": 16,
-      "russian_success_rate": 81,
+      "russian_attempts": 17,
+      "russian_success_rate": 82,
       "top_students": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
