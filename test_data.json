@@ -675,9 +675,9 @@
         "percent": 80
       },
       "russian": {
-        "a": 1,
-        "b": 4,
-        "l": "06.02.2026, 18:35:02",
+        "a": 2,
+        "b": 6,
+        "l": "06.02.2026, 18:40:50",
         "p": false,
         "da": [
           {
@@ -687,9 +687,17 @@
             "p": false,
             "tm": "18:35:02",
             "percent": 40
+          },
+          {
+            "d": "2026-02-06",
+            "c": 6,
+            "t": 10,
+            "p": false,
+            "tm": "18:40:50",
+            "percent": 60
           }
         ],
-        "percent": 40
+        "percent": 60
       }
     },
     {
@@ -1687,6 +1695,16 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 80
+    },
+    {
+      "s": "Ненастьева Василиса",
+      "d": "06.02.2026, 18:40:50",
+      "c": 6,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-06",
+      "type": "russian",
+      "percent": 60
     }
   ],
   "ds": {
@@ -1731,7 +1749,7 @@
       }
     },
     "2026-02-06": {
-      "ta": 38,
+      "ta": 39,
       "pa": 32,
       "st": [
         "Лазарев Никита",
@@ -1752,16 +1770,16 @@
         "Боталова Кира",
         "Ненастьева Василиса"
       ],
-      "avg_percent": 81,
+      "avg_percent": 80,
       "math_stats": {
         "total": 20,
         "passed": 18,
         "avg_percent": 79
       },
       "russian_stats": {
-        "total": 18,
+        "total": 19,
         "passed": 14,
-        "avg_percent": 83
+        "avg_percent": 82
       }
     }
   },
@@ -1966,19 +1984,19 @@
     },
     "2026-02-06": {
       "total_students": 17,
-      "total_attempts": 38,
+      "total_attempts": 39,
       "passed_attempts": 32,
-      "success_rate": 84,
+      "success_rate": 82,
       "math_attempts": 20,
       "math_success_rate": 90,
-      "russian_attempts": 18,
-      "russian_success_rate": 78,
+      "russian_attempts": 19,
+      "russian_success_rate": 74,
       "top_students": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
         "Калинин Егор"
       ],
-      "avg_percentage": 81
+      "avg_percentage": 80
     }
   }
 }
