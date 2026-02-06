@@ -643,9 +643,9 @@
     {
       "n": "Ненастьева Василиса",
       "math": {
-        "a": 2,
+        "a": 3,
         "b": 8,
-        "l": "06.02.2026, 18:33:29",
+        "l": "06.02.2026, 18:39:19",
         "p": true,
         "da": [
           {
@@ -661,6 +661,14 @@
             "t": 10,
             "p": true,
             "tm": "18:33:29",
+            "percent": 80
+          },
+          {
+            "d": "2026-02-06",
+            "c": 8,
+            "t": 10,
+            "p": true,
+            "tm": "18:39:19",
             "percent": 80
           }
         ],
@@ -1669,6 +1677,16 @@
       "day": "2026-02-06",
       "type": "russian",
       "percent": 40
+    },
+    {
+      "s": "Ненастьева Василиса",
+      "d": "06.02.2026, 18:39:19",
+      "c": 8,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "math",
+      "percent": 80
     }
   ],
   "ds": {
@@ -1713,8 +1731,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 37,
-      "pa": 31,
+      "ta": 38,
+      "pa": 32,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1736,8 +1754,8 @@
       ],
       "avg_percent": 81,
       "math_stats": {
-        "total": 19,
-        "passed": 17,
+        "total": 20,
+        "passed": 18,
         "avg_percent": 79
       },
       "russian_stats": {
@@ -1948,11 +1966,11 @@
     },
     "2026-02-06": {
       "total_students": 17,
-      "total_attempts": 37,
-      "passed_attempts": 31,
+      "total_attempts": 38,
+      "passed_attempts": 32,
       "success_rate": 84,
-      "math_attempts": 19,
-      "math_success_rate": 89,
+      "math_attempts": 20,
+      "math_success_rate": 90,
       "russian_attempts": 18,
       "russian_success_rate": 78,
       "top_students": [
