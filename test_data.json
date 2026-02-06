@@ -143,11 +143,20 @@
     {
       "n": "Бурнашов Иван",
       "math": {
-        "a": 7,
+        "a": 8,
         "b": 10,
-        "l": "06.02.2026, 11:59:13",
+        "l": "06.02.2026, 12:57:41",
         "p": true,
-        "da": [],
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 9,
+            "t": 10,
+            "p": true,
+            "tm": "12:57:41",
+            "percent": 90
+          }
+        ],
         "percent": 100
       },
       "russian": {
@@ -968,9 +977,38 @@
       "day": "2026-02-05",
       "type": "math",
       "percent": 70
+    },
+    {
+      "s": "Бурнашов Иван",
+      "d": "06.02.2026, 12:57:41",
+      "c": 9,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "math",
+      "percent": 90
     }
   ],
-  "ds": {},
+  "ds": {
+    "2026-02-06": {
+      "ta": 1,
+      "pa": 1,
+      "st": [
+        "Бурнашов Иван"
+      ],
+      "avg_percent": 90,
+      "math_stats": {
+        "total": 1,
+        "passed": 1,
+        "avg_percent": 90
+      },
+      "russian_stats": {
+        "total": 0,
+        "passed": 0,
+        "avg_percent": 0
+      }
+    }
+  },
   "russian_words": [
     {
       "word": "слон",
@@ -1153,5 +1191,20 @@
       "prepositional": "полях"
     }
   ],
-  "calendar_stats": {}
+  "calendar_stats": {
+    "2026-02-06": {
+      "total_students": 1,
+      "total_attempts": 1,
+      "passed_attempts": 1,
+      "success_rate": 100,
+      "math_attempts": 1,
+      "math_success_rate": 100,
+      "russian_attempts": 0,
+      "russian_success_rate": 0,
+      "top_students": [
+        "Бурнашов Иван"
+      ],
+      "avg_percentage": 90
+    }
+  }
 }
