@@ -293,9 +293,9 @@
     {
       "n": "Гудошникова Виктория",
       "math": {
-        "a": 2,
+        "a": 3,
         "b": 7,
-        "l": "06.02.2026, 18:18:55",
+        "l": "06.02.2026, 18:19:23",
         "p": true,
         "da": [
           {
@@ -311,6 +311,14 @@
             "t": 10,
             "p": true,
             "tm": "18:18:55",
+            "percent": 70
+          },
+          {
+            "d": "2026-02-06",
+            "c": 7,
+            "t": 10,
+            "p": true,
+            "tm": "18:19:23",
             "percent": 70
           }
         ],
@@ -1517,6 +1525,16 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 70
+    },
+    {
+      "s": "Гудошникова Виктория",
+      "d": "06.02.2026, 18:19:23",
+      "c": 7,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "math",
+      "percent": 70
     }
   ],
   "ds": {
@@ -1561,8 +1579,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 29,
-      "pa": 24,
+      "ta": 30,
+      "pa": 25,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1581,8 +1599,8 @@
       ],
       "avg_percent": 80,
       "math_stats": {
-        "total": 15,
-        "passed": 13,
+        "total": 16,
+        "passed": 14,
         "avg_percent": 77
       },
       "russian_stats": {
@@ -1793,11 +1811,11 @@
     },
     "2026-02-06": {
       "total_students": 14,
-      "total_attempts": 29,
-      "passed_attempts": 24,
+      "total_attempts": 30,
+      "passed_attempts": 25,
       "success_rate": 83,
-      "math_attempts": 15,
-      "math_success_rate": 87,
+      "math_attempts": 16,
+      "math_success_rate": 88,
       "russian_attempts": 14,
       "russian_success_rate": 79,
       "top_students": [
