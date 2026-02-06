@@ -14,9 +14,9 @@
     {
       "n": "Абракомова Анастасия",
       "math": {
-        "a": 1,
+        "a": 2,
         "b": 10,
-        "l": "05.02.2026, 13:56:23",
+        "l": "06.02.2026, 13:54:24",
         "p": true,
         "da": [
           {
@@ -25,8 +25,17 @@
             "t": 10,
             "p": true,
             "tm": "13:56:23"
+          },
+          {
+            "d": "2026-02-06",
+            "c": 9,
+            "t": 10,
+            "p": true,
+            "tm": "13:54:24",
+            "percent": 90
           }
-        ]
+        ],
+        "percent": 90
       },
       "russian": {
         "a": 0,
@@ -1158,6 +1167,16 @@
       "day": "2026-02-06",
       "type": "russian",
       "percent": 100
+    },
+    {
+      "s": "Абракомова Анастасия",
+      "d": "06.02.2026, 13:54:24",
+      "c": 9,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "math",
+      "percent": 90
     }
   ],
   "ds": {
@@ -1202,19 +1221,20 @@
       }
     },
     "2026-02-06": {
-      "ta": 10,
-      "pa": 10,
+      "ta": 11,
+      "pa": 11,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
         "Калинин Егор",
         "Серебрякова Милана",
-        "Валиуллина Вероника"
+        "Валиуллина Вероника",
+        "Абракомова Анастасия"
       ],
       "avg_percent": 93,
       "math_stats": {
-        "total": 5,
-        "passed": 5,
+        "total": 6,
+        "passed": 6,
         "avg_percent": 90
       },
       "russian_stats": {
@@ -1424,11 +1444,11 @@
       "avg_percentage": 82
     },
     "2026-02-06": {
-      "total_students": 5,
-      "total_attempts": 10,
-      "passed_attempts": 10,
+      "total_students": 6,
+      "total_attempts": 11,
+      "passed_attempts": 11,
       "success_rate": 100,
-      "math_attempts": 5,
+      "math_attempts": 6,
       "math_success_rate": 100,
       "russian_attempts": 5,
       "russian_success_rate": 100,
