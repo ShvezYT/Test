@@ -377,12 +377,21 @@
         "percent": 100
       },
       "russian": {
-        "a": 0,
-        "b": 0,
-        "l": null,
-        "p": false,
-        "da": [],
-        "percent": 0
+        "a": 1,
+        "b": 10,
+        "l": "06.02.2026, 13:39:55",
+        "p": true,
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 10,
+            "t": 10,
+            "p": true,
+            "tm": "13:39:55",
+            "percent": 100
+          }
+        ],
+        "percent": 100
       }
     },
     {
@@ -987,6 +996,16 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 100
+    },
+    {
+      "s": "Лазарев Никита",
+      "d": "06.02.2026, 13:39:55",
+      "c": 10,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "russian",
+      "percent": 100
     }
   ],
   "ds": {
@@ -1031,8 +1050,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 1,
-      "pa": 1,
+      "ta": 2,
+      "pa": 2,
       "st": [
         "Лазарев Никита"
       ],
@@ -1043,9 +1062,9 @@
         "avg_percent": 100
       },
       "russian_stats": {
-        "total": 0,
-        "passed": 0,
-        "avg_percent": 0
+        "total": 1,
+        "passed": 1,
+        "avg_percent": 100
       }
     }
   },
@@ -1250,13 +1269,13 @@
     },
     "2026-02-06": {
       "total_students": 1,
-      "total_attempts": 1,
-      "passed_attempts": 1,
+      "total_attempts": 2,
+      "passed_attempts": 2,
       "success_rate": 100,
       "math_attempts": 1,
       "math_success_rate": 100,
-      "russian_attempts": 0,
-      "russian_success_rate": 0,
+      "russian_attempts": 1,
+      "russian_success_rate": 100,
       "top_students": [
         "Лазарев Никита"
       ],
