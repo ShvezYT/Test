@@ -605,9 +605,9 @@
     {
       "n": "Терпигорьевна Алиса",
       "math": {
-        "a": 1,
+        "a": 2,
         "b": 10,
-        "l": "05.02.2026, 13:40:30",
+        "l": "06.02.2026, 13:42:15",
         "p": true,
         "da": [
           {
@@ -616,8 +616,17 @@
             "t": 10,
             "p": true,
             "tm": "13:40:30"
+          },
+          {
+            "d": "2026-02-06",
+            "c": 10,
+            "t": 10,
+            "p": true,
+            "tm": "13:42:15",
+            "percent": 100
           }
-        ]
+        ],
+        "percent": 100
       },
       "russian": {
         "a": 0,
@@ -1006,6 +1015,16 @@
       "day": "2026-02-06",
       "type": "russian",
       "percent": 100
+    },
+    {
+      "s": "Терпигорьевна Алиса",
+      "d": "06.02.2026, 13:42:15",
+      "c": 10,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "math",
+      "percent": 100
     }
   ],
   "ds": {
@@ -1050,15 +1069,16 @@
       }
     },
     "2026-02-06": {
-      "ta": 2,
-      "pa": 2,
+      "ta": 3,
+      "pa": 3,
       "st": [
-        "Лазарев Никита"
+        "Лазарев Никита",
+        "Терпигорьевна Алиса"
       ],
       "avg_percent": 100,
       "math_stats": {
-        "total": 1,
-        "passed": 1,
+        "total": 2,
+        "passed": 2,
         "avg_percent": 100
       },
       "russian_stats": {
@@ -1268,16 +1288,17 @@
       "avg_percentage": 82
     },
     "2026-02-06": {
-      "total_students": 1,
-      "total_attempts": 2,
-      "passed_attempts": 2,
+      "total_students": 2,
+      "total_attempts": 3,
+      "passed_attempts": 3,
       "success_rate": 100,
-      "math_attempts": 1,
+      "math_attempts": 2,
       "math_success_rate": 100,
       "russian_attempts": 1,
       "russian_success_rate": 100,
       "top_students": [
-        "Лазарев Никита"
+        "Лазарев Никита",
+        "Терпигорьевна Алиса"
       ],
       "avg_percentage": 100
     }
