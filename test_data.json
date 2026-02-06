@@ -38,12 +38,21 @@
         "percent": 90
       },
       "russian": {
-        "a": 0,
-        "b": 0,
-        "l": null,
-        "p": false,
-        "da": [],
-        "percent": 0
+        "a": 1,
+        "b": 10,
+        "l": "06.02.2026, 13:55:33",
+        "p": true,
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 10,
+            "t": 10,
+            "p": true,
+            "tm": "13:55:33",
+            "percent": 100
+          }
+        ],
+        "percent": 100
       }
     },
     {
@@ -1177,6 +1186,16 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 90
+    },
+    {
+      "s": "Абракомова Анастасия",
+      "d": "06.02.2026, 13:55:33",
+      "c": 10,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "russian",
+      "percent": 100
     }
   ],
   "ds": {
@@ -1221,8 +1240,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 11,
-      "pa": 11,
+      "ta": 12,
+      "pa": 12,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1231,16 +1250,16 @@
         "Валиуллина Вероника",
         "Абракомова Анастасия"
       ],
-      "avg_percent": 93,
+      "avg_percent": 94,
       "math_stats": {
         "total": 6,
         "passed": 6,
         "avg_percent": 90
       },
       "russian_stats": {
-        "total": 5,
-        "passed": 5,
-        "avg_percent": 96
+        "total": 6,
+        "passed": 6,
+        "avg_percent": 97
       }
     }
   },
@@ -1445,19 +1464,19 @@
     },
     "2026-02-06": {
       "total_students": 6,
-      "total_attempts": 11,
-      "passed_attempts": 11,
+      "total_attempts": 12,
+      "passed_attempts": 12,
       "success_rate": 100,
       "math_attempts": 6,
       "math_success_rate": 100,
-      "russian_attempts": 5,
+      "russian_attempts": 6,
       "russian_success_rate": 100,
       "top_students": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
         "Калинин Егор"
       ],
-      "avg_percentage": 93
+      "avg_percentage": 94
     }
   }
 }
