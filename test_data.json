@@ -897,9 +897,9 @@
     {
       "n": "Чистякова Виктория",
       "math": {
-        "a": 2,
-        "b": 7,
-        "l": "05.02.2026, 14:01:49",
+        "a": 3,
+        "b": 8,
+        "l": "06.02.2026, 16:37:08",
         "p": true,
         "da": [
           {
@@ -915,8 +915,17 @@
             "t": 10,
             "p": true,
             "tm": "14:01:49"
+          },
+          {
+            "d": "2026-02-06",
+            "c": 8,
+            "t": 10,
+            "p": true,
+            "tm": "16:37:08",
+            "percent": 80
           }
-        ]
+        ],
+        "percent": 80
       },
       "russian": {
         "a": 0,
@@ -1422,6 +1431,16 @@
       "day": "2026-02-06",
       "type": "russian",
       "percent": 100
+    },
+    {
+      "s": "Чистякова Виктория",
+      "d": "06.02.2026, 16:37:08",
+      "c": 8,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "math",
+      "percent": 80
     }
   ],
   "ds": {
@@ -1466,8 +1485,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 24,
-      "pa": 20,
+      "ta": 25,
+      "pa": 21,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1479,12 +1498,13 @@
         "Пермяков Дмитрий",
         "Маргарян Артём",
         "Новиков Павел",
-        "Валиуллин Владимир"
+        "Валиуллин Владимир",
+        "Чистякова Виктория"
       ],
       "avg_percent": 81,
       "math_stats": {
-        "total": 12,
-        "passed": 10,
+        "total": 13,
+        "passed": 11,
         "avg_percent": 76
       },
       "russian_stats": {
@@ -1694,12 +1714,12 @@
       "avg_percentage": 82
     },
     "2026-02-06": {
-      "total_students": 11,
-      "total_attempts": 24,
-      "passed_attempts": 20,
-      "success_rate": 83,
-      "math_attempts": 12,
-      "math_success_rate": 83,
+      "total_students": 12,
+      "total_attempts": 25,
+      "passed_attempts": 21,
+      "success_rate": 84,
+      "math_attempts": 13,
+      "math_success_rate": 85,
       "russian_attempts": 12,
       "russian_success_rate": 83,
       "top_students": [
