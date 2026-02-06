@@ -133,12 +133,21 @@
         "percent": 100
       },
       "russian": {
-        "a": 0,
-        "b": 0,
-        "l": null,
-        "p": false,
-        "da": [],
-        "percent": 0
+        "a": 1,
+        "b": 10,
+        "l": "06.02.2026, 18:44:43",
+        "p": true,
+        "da": [
+          {
+            "d": "2026-02-06",
+            "c": 10,
+            "t": 10,
+            "p": true,
+            "tm": "18:44:43",
+            "percent": 100
+          }
+        ],
+        "percent": 100
       }
     },
     {
@@ -1723,6 +1732,16 @@
       "day": "2026-02-06",
       "type": "math",
       "percent": 100
+    },
+    {
+      "s": "Балдаков Степан",
+      "d": "06.02.2026, 18:44:43",
+      "c": 10,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-06",
+      "type": "russian",
+      "percent": 100
     }
   ],
   "ds": {
@@ -1767,8 +1786,8 @@
       }
     },
     "2026-02-06": {
-      "ta": 40,
-      "pa": 33,
+      "ta": 41,
+      "pa": 34,
       "st": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
@@ -1796,9 +1815,9 @@
         "avg_percent": 80
       },
       "russian_stats": {
-        "total": 19,
-        "passed": 14,
-        "avg_percent": 82
+        "total": 20,
+        "passed": 15,
+        "avg_percent": 83
       }
     }
   },
@@ -2003,13 +2022,13 @@
     },
     "2026-02-06": {
       "total_students": 18,
-      "total_attempts": 40,
-      "passed_attempts": 33,
+      "total_attempts": 41,
+      "passed_attempts": 34,
       "success_rate": 83,
       "math_attempts": 21,
       "math_success_rate": 90,
-      "russian_attempts": 19,
-      "russian_success_rate": 74,
+      "russian_attempts": 20,
+      "russian_success_rate": 75,
       "top_students": [
         "Лазарев Никита",
         "Терпигорьевна Алиса",
