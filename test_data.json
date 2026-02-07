@@ -204,14 +204,14 @@
         "da": [
           {
             "d": "2026-02-07",
-            "c": 3,
+            "c": 0,
             "t": 10,
             "p": false,
             "tm": "21:53:23",
-            "percent": 30
+            "percent": 0
           }
         ],
-        "percent": 30
+        "percent": 0
       },
       "russian": {
         "a": 0,
