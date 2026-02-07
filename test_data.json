@@ -2073,18 +2073,16 @@
       "avg_percentage": 81
     },
     "2026-02-07": {
-      "total_students": 1,
-      "total_attempts": 1,
+      "total_students": 0,
+      "total_attempts": 0,
       "passed_attempts": 0,
       "success_rate": 0,
-      "math_attempts": 1,
+      "math_attempts": 0,
       "math_success_rate": 0,
       "russian_attempts": 0,
       "russian_success_rate": 0,
-      "top_students": [
-        "Бурнашов Иван"
-      ],
-      "avg_percentage": 30
+      "top_students": [],
+      "avg_percentage": 0
     }
   }
 }
