@@ -197,11 +197,21 @@
     {
       "n": "Бурнашов Иван",
       "math": {
-        "a": 0,
-        "b": 0,
-        "l": null,
+        "a": 1,
+        "b": 3,
+        "l": "07.02.2026, 21:53:23",
         "p": false,
-        "da": []
+        "da": [
+          {
+            "d": "2026-02-07",
+            "c": 3,
+            "t": 10,
+            "p": false,
+            "tm": "21:53:23",
+            "percent": 30
+          }
+        ],
+        "percent": 30
       },
       "russian": {
         "a": 0,
@@ -1740,6 +1750,16 @@
       "day": "2026-02-06",
       "type": "russian",
       "percent": 100
+    },
+    {
+      "s": "Бурнашов Иван",
+      "d": "07.02.2026, 21:53:23",
+      "c": 3,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-07",
+      "type": "math",
+      "percent": 30
     }
   ],
   "ds": {
@@ -1816,6 +1836,24 @@
         "total": 20,
         "passed": 15,
         "avg_percent": 83
+      }
+    },
+    "2026-02-07": {
+      "ta": 1,
+      "pa": 0,
+      "st": [
+        "Бурнашов Иван"
+      ],
+      "avg_percent": 30,
+      "math_stats": {
+        "total": 1,
+        "passed": 0,
+        "avg_percent": 30
+      },
+      "russian_stats": {
+        "total": 0,
+        "passed": 0,
+        "avg_percent": 0
       }
     }
   },
@@ -2033,6 +2071,20 @@
         "Калинин Егор"
       ],
       "avg_percentage": 81
+    },
+    "2026-02-07": {
+      "total_students": 1,
+      "total_attempts": 1,
+      "passed_attempts": 0,
+      "success_rate": 0,
+      "math_attempts": 1,
+      "math_success_rate": 0,
+      "russian_attempts": 0,
+      "russian_success_rate": 0,
+      "top_students": [
+        "Бурнашов Иван"
+      ],
+      "avg_percentage": 30
     }
   }
 }
