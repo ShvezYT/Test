@@ -756,9 +756,9 @@
     {
       "n": "Новиков Павел",
       "math": {
-        "a": 2,
+        "a": 3,
         "b": 8,
-        "l": "06.02.2026, 14:56:13",
+        "l": "09.02.2026, 18:26:44",
         "p": false,
         "da": [
           {
@@ -775,6 +775,14 @@
             "p": false,
             "tm": "14:56:13",
             "percent": 60
+          },
+          {
+            "d": "2026-02-09",
+            "c": 3,
+            "t": 10,
+            "p": false,
+            "tm": "18:26:44",
+            "percent": 30
           }
         ],
         "percent": 60
@@ -1865,6 +1873,16 @@
       "day": "2026-02-09",
       "type": "math",
       "percent": 70
+    },
+    {
+      "s": "Новиков Павел",
+      "d": "09.02.2026, 18:26:44",
+      "c": 3,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-09",
+      "type": "math",
+      "percent": 30
     }
   ],
   "ds": {
@@ -1962,19 +1980,20 @@
       }
     },
     "2026-02-09": {
-      "ta": 6,
+      "ta": 7,
       "pa": 3,
       "st": [
         "Бурнашов Иван",
         "Лазарев Никита",
         "Абросимова Кира",
-        "Харисов Роберт"
+        "Харисов Роберт",
+        "Новиков Павел"
       ],
-      "avg_percent": 55,
+      "avg_percent": 51,
       "math_stats": {
-        "total": 5,
+        "total": 6,
         "passed": 3,
-        "avg_percent": 66
+        "avg_percent": 60
       },
       "russian_stats": {
         "total": 1,
@@ -2211,12 +2230,12 @@
       "avg_percentage": 0
     },
     "2026-02-09": {
-      "total_students": 4,
-      "total_attempts": 6,
+      "total_students": 5,
+      "total_attempts": 7,
       "passed_attempts": 3,
-      "success_rate": 50,
-      "math_attempts": 5,
-      "math_success_rate": 60,
+      "success_rate": 43,
+      "math_attempts": 6,
+      "math_success_rate": 50,
       "russian_attempts": 1,
       "russian_success_rate": 0,
       "top_students": [
@@ -2224,7 +2243,7 @@
         "Лазарев Никита",
         "Харисов Роберт"
       ],
-      "avg_percentage": 55
+      "avg_percentage": 51
     }
   }
 }
