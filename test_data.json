@@ -162,10 +162,10 @@
     {
       "n": "Боталова Кира",
       "math": {
-        "a": 2,
+        "a": 3,
         "b": 9,
-        "l": "06.02.2026, 18:30:11",
-        "p": true,
+        "l": "09.02.2026, 18:29:12",
+        "p": false,
         "da": [
           {
             "d": "2026-02-05",
@@ -181,6 +181,14 @@
             "p": true,
             "tm": "18:30:11",
             "percent": 90
+          },
+          {
+            "d": "2026-02-09",
+            "c": 5,
+            "t": 10,
+            "p": false,
+            "tm": "18:29:12",
+            "percent": 50
           }
         ],
         "percent": 90
@@ -1883,6 +1891,16 @@
       "day": "2026-02-09",
       "type": "math",
       "percent": 30
+    },
+    {
+      "s": "Боталова Кира",
+      "d": "09.02.2026, 18:29:12",
+      "c": 5,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-09",
+      "type": "math",
+      "percent": 50
     }
   ],
   "ds": {
@@ -1980,20 +1998,21 @@
       }
     },
     "2026-02-09": {
-      "ta": 7,
+      "ta": 8,
       "pa": 3,
       "st": [
         "Бурнашов Иван",
         "Лазарев Никита",
         "Абросимова Кира",
         "Харисов Роберт",
-        "Новиков Павел"
+        "Новиков Павел",
+        "Боталова Кира"
       ],
-      "avg_percent": 51,
+      "avg_percent": 52,
       "math_stats": {
-        "total": 6,
+        "total": 7,
         "passed": 3,
-        "avg_percent": 60
+        "avg_percent": 59
       },
       "russian_stats": {
         "total": 1,
@@ -2230,12 +2249,12 @@
       "avg_percentage": 0
     },
     "2026-02-09": {
-      "total_students": 5,
-      "total_attempts": 7,
+      "total_students": 6,
+      "total_attempts": 8,
       "passed_attempts": 3,
-      "success_rate": 43,
-      "math_attempts": 6,
-      "math_success_rate": 50,
+      "success_rate": 38,
+      "math_attempts": 7,
+      "math_success_rate": 43,
       "russian_attempts": 1,
       "russian_success_rate": 0,
       "top_students": [
@@ -2243,7 +2262,7 @@
         "Лазарев Никита",
         "Харисов Роберт"
       ],
-      "avg_percentage": 51
+      "avg_percentage": 52
     }
   }
 }
