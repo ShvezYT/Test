@@ -197,10 +197,10 @@
     {
       "n": "Бурнашов Иван",
       "math": {
-        "a": 1,
-        "b": 0,
-        "l": "09.02.2026, 11:57:44",
-        "p": false,
+        "a": 2,
+        "b": 10,
+        "l": "09.02.2026, 13:45:54",
+        "p": true,
         "da": [
           {
             "d": "2026-02-09",
@@ -209,9 +209,17 @@
             "p": false,
             "tm": "11:57:44",
             "percent": 0
+          },
+          {
+            "d": "2026-02-09",
+            "c": 10,
+            "t": 10,
+            "p": true,
+            "tm": "13:45:54",
+            "percent": 100
           }
         ],
-        "percent": 0
+        "percent": 100
       },
       "russian": {
         "a": 0,
@@ -1790,6 +1798,16 @@
       "day": "2026-02-09",
       "type": "russian",
       "percent": 0
+    },
+    {
+      "s": "Бурнашов Иван",
+      "d": "09.02.2026, 13:45:54",
+      "c": 10,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-09",
+      "type": "math",
+      "percent": 100
     }
   ],
   "ds": {
@@ -1887,16 +1905,16 @@
       }
     },
     "2026-02-09": {
-      "ta": 2,
-      "pa": 0,
+      "ta": 3,
+      "pa": 1,
       "st": [
         "Бурнашов Иван"
       ],
-      "avg_percent": 0,
+      "avg_percent": 33,
       "math_stats": {
-        "total": 1,
-        "passed": 0,
-        "avg_percent": 0
+        "total": 2,
+        "passed": 1,
+        "avg_percent": 50
       },
       "russian_stats": {
         "total": 1,
@@ -2134,17 +2152,17 @@
     },
     "2026-02-09": {
       "total_students": 1,
-      "total_attempts": 2,
-      "passed_attempts": 0,
-      "success_rate": 0,
-      "math_attempts": 1,
-      "math_success_rate": 0,
+      "total_attempts": 3,
+      "passed_attempts": 1,
+      "success_rate": 33,
+      "math_attempts": 2,
+      "math_success_rate": 50,
       "russian_attempts": 1,
       "russian_success_rate": 0,
       "top_students": [
         "Бурнашов Иван"
       ],
-      "avg_percentage": 0
+      "avg_percentage": 33
     }
   }
 }
