@@ -720,10 +720,10 @@
     {
       "n": "Ненастьева Василиса",
       "math": {
-        "a": 3,
+        "a": 4,
         "b": 8,
-        "l": "06.02.2026, 18:39:19",
-        "p": true,
+        "l": "09.02.2026, 18:40:11",
+        "p": false,
         "da": [
           {
             "d": "2026-02-05",
@@ -747,6 +747,14 @@
             "p": true,
             "tm": "18:39:19",
             "percent": 80
+          },
+          {
+            "d": "2026-02-09",
+            "c": 5,
+            "t": 10,
+            "p": false,
+            "tm": "18:40:11",
+            "percent": 50
           }
         ],
         "percent": 80
@@ -1973,6 +1981,16 @@
       "day": "2026-02-09",
       "type": "math",
       "percent": 70
+    },
+    {
+      "s": "Ненастьева Василиса",
+      "d": "09.02.2026, 18:40:11",
+      "c": 5,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-09",
+      "type": "math",
+      "percent": 50
     }
   ],
   "ds": {
@@ -2070,7 +2088,7 @@
       }
     },
     "2026-02-09": {
-      "ta": 12,
+      "ta": 13,
       "pa": 6,
       "st": [
         "Бурнашов Иван",
@@ -2082,13 +2100,14 @@
         "Абракомова Анастасия",
         "Фукалова Арина",
         "Серебрякова Милана",
-        "Елизарова Влада"
+        "Елизарова Влада",
+        "Ненастьева Василиса"
       ],
-      "avg_percent": 59,
+      "avg_percent": 58,
       "math_stats": {
-        "total": 11,
+        "total": 12,
         "passed": 6,
-        "avg_percent": 64
+        "avg_percent": 63
       },
       "russian_stats": {
         "total": 1,
@@ -2325,12 +2344,12 @@
       "avg_percentage": 0
     },
     "2026-02-09": {
-      "total_students": 10,
-      "total_attempts": 12,
+      "total_students": 11,
+      "total_attempts": 13,
       "passed_attempts": 6,
-      "success_rate": 50,
-      "math_attempts": 11,
-      "math_success_rate": 55,
+      "success_rate": 46,
+      "math_attempts": 12,
+      "math_success_rate": 50,
       "russian_attempts": 1,
       "russian_success_rate": 0,
       "top_students": [
@@ -2338,7 +2357,7 @@
         "Лазарев Никита",
         "Абракомова Анастасия"
       ],
-      "avg_percentage": 59
+      "avg_percentage": 58
     }
   }
 }
