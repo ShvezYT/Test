@@ -58,10 +58,10 @@
     {
       "n": "Абросимова Кира",
       "math": {
-        "a": 1,
+        "a": 2,
         "b": 7,
-        "l": "05.02.2026, 15:01:05",
-        "p": true,
+        "l": "09.02.2026, 13:58:41",
+        "p": false,
         "da": [
           {
             "d": "2026-02-05",
@@ -69,8 +69,17 @@
             "t": 10,
             "p": true,
             "tm": "15:01:05"
+          },
+          {
+            "d": "2026-02-09",
+            "c": 6,
+            "t": 10,
+            "p": false,
+            "tm": "13:58:41",
+            "percent": 60
           }
-        ]
+        ],
+        "percent": 60
       },
       "russian": {
         "a": 0,
@@ -1828,6 +1837,16 @@
       "day": "2026-02-09",
       "type": "math",
       "percent": 100
+    },
+    {
+      "s": "Абросимова Кира",
+      "d": "09.02.2026, 13:58:41",
+      "c": 6,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-09",
+      "type": "math",
+      "percent": 60
     }
   ],
   "ds": {
@@ -1925,17 +1944,18 @@
       }
     },
     "2026-02-09": {
-      "ta": 4,
+      "ta": 5,
       "pa": 2,
       "st": [
         "Бурнашов Иван",
-        "Лазарев Никита"
+        "Лазарев Никита",
+        "Абросимова Кира"
       ],
-      "avg_percent": 50,
+      "avg_percent": 52,
       "math_stats": {
-        "total": 3,
+        "total": 4,
         "passed": 2,
-        "avg_percent": 67
+        "avg_percent": 65
       },
       "russian_stats": {
         "total": 1,
@@ -2172,19 +2192,20 @@
       "avg_percentage": 0
     },
     "2026-02-09": {
-      "total_students": 2,
-      "total_attempts": 4,
+      "total_students": 3,
+      "total_attempts": 5,
       "passed_attempts": 2,
-      "success_rate": 50,
-      "math_attempts": 3,
-      "math_success_rate": 67,
+      "success_rate": 40,
+      "math_attempts": 4,
+      "math_success_rate": 50,
       "russian_attempts": 1,
       "russian_success_rate": 0,
       "top_students": [
         "Бурнашов Иван",
-        "Лазарев Никита"
+        "Лазарев Никита",
+        "Абросимова Кира"
       ],
-      "avg_percentage": 50
+      "avg_percentage": 52
     }
   }
 }
