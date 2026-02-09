@@ -1028,9 +1028,9 @@
     {
       "n": "Харисов Роберт",
       "math": {
-        "a": 1,
+        "a": 2,
         "b": 10,
-        "l": "06.02.2026, 18:27:16",
+        "l": "09.02.2026, 18:22:46",
         "p": true,
         "da": [
           {
@@ -1040,6 +1040,14 @@
             "p": true,
             "tm": "18:27:16",
             "percent": 100
+          },
+          {
+            "d": "2026-02-09",
+            "c": 7,
+            "t": 10,
+            "p": true,
+            "tm": "18:22:46",
+            "percent": 70
           }
         ],
         "percent": 100
@@ -1847,6 +1855,16 @@
       "day": "2026-02-09",
       "type": "math",
       "percent": 60
+    },
+    {
+      "s": "Харисов Роберт",
+      "d": "09.02.2026, 18:22:46",
+      "c": 7,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-09",
+      "type": "math",
+      "percent": 70
     }
   ],
   "ds": {
@@ -1944,18 +1962,19 @@
       }
     },
     "2026-02-09": {
-      "ta": 5,
-      "pa": 2,
+      "ta": 6,
+      "pa": 3,
       "st": [
         "Бурнашов Иван",
         "Лазарев Никита",
-        "Абросимова Кира"
+        "Абросимова Кира",
+        "Харисов Роберт"
       ],
-      "avg_percent": 52,
+      "avg_percent": 55,
       "math_stats": {
-        "total": 4,
-        "passed": 2,
-        "avg_percent": 65
+        "total": 5,
+        "passed": 3,
+        "avg_percent": 66
       },
       "russian_stats": {
         "total": 1,
@@ -2192,20 +2211,20 @@
       "avg_percentage": 0
     },
     "2026-02-09": {
-      "total_students": 3,
-      "total_attempts": 5,
-      "passed_attempts": 2,
-      "success_rate": 40,
-      "math_attempts": 4,
-      "math_success_rate": 50,
+      "total_students": 4,
+      "total_attempts": 6,
+      "passed_attempts": 3,
+      "success_rate": 50,
+      "math_attempts": 5,
+      "math_success_rate": 60,
       "russian_attempts": 1,
       "russian_success_rate": 0,
       "top_students": [
         "Бурнашов Иван",
         "Лазарев Никита",
-        "Абросимова Кира"
+        "Харисов Роберт"
       ],
-      "avg_percentage": 52
+      "avg_percentage": 55
     }
   }
 }
