@@ -1008,9 +1008,9 @@
     {
       "n": "Фукалова Арина",
       "math": {
-        "a": 2,
-        "b": 7,
-        "l": "06.02.2026, 13:57:37",
+        "a": 3,
+        "b": 8,
+        "l": "09.02.2026, 18:33:15",
         "p": true,
         "da": [
           {
@@ -1027,9 +1027,17 @@
             "p": true,
             "tm": "13:57:37",
             "percent": 70
+          },
+          {
+            "d": "2026-02-09",
+            "c": 8,
+            "t": 10,
+            "p": true,
+            "tm": "18:33:15",
+            "percent": 80
           }
         ],
-        "percent": 70
+        "percent": 80
       },
       "russian": {
         "a": 1,
@@ -1919,6 +1927,16 @@
       "day": "2026-02-09",
       "type": "math",
       "percent": 100
+    },
+    {
+      "s": "Фукалова Арина",
+      "d": "09.02.2026, 18:33:15",
+      "c": 8,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-09",
+      "type": "math",
+      "percent": 80
     }
   ],
   "ds": {
@@ -2016,8 +2034,8 @@
       }
     },
     "2026-02-09": {
-      "ta": 9,
-      "pa": 4,
+      "ta": 10,
+      "pa": 5,
       "st": [
         "Бурнашов Иван",
         "Лазарев Никита",
@@ -2025,13 +2043,14 @@
         "Харисов Роберт",
         "Новиков Павел",
         "Боталова Кира",
-        "Абракомова Анастасия"
+        "Абракомова Анастасия",
+        "Фукалова Арина"
       ],
-      "avg_percent": 57,
+      "avg_percent": 59,
       "math_stats": {
-        "total": 8,
-        "passed": 4,
-        "avg_percent": 64
+        "total": 9,
+        "passed": 5,
+        "avg_percent": 66
       },
       "russian_stats": {
         "total": 1,
@@ -2268,12 +2287,12 @@
       "avg_percentage": 0
     },
     "2026-02-09": {
-      "total_students": 7,
-      "total_attempts": 9,
-      "passed_attempts": 4,
-      "success_rate": 44,
-      "math_attempts": 8,
-      "math_success_rate": 50,
+      "total_students": 8,
+      "total_attempts": 10,
+      "passed_attempts": 5,
+      "success_rate": 50,
+      "math_attempts": 9,
+      "math_success_rate": 56,
       "russian_attempts": 1,
       "russian_success_rate": 0,
       "top_students": [
@@ -2281,7 +2300,7 @@
         "Лазарев Никита",
         "Абракомова Анастасия"
       ],
-      "avg_percentage": 57
+      "avg_percentage": 59
     }
   }
 }
