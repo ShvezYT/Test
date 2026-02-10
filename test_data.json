@@ -258,10 +258,10 @@
     {
       "n": "Валиуллин Владимир",
       "math": {
-        "a": 2,
+        "a": 3,
         "b": 10,
-        "l": "06.02.2026, 15:48:07",
-        "p": true,
+        "l": "10.02.2026, 13:39:22",
+        "p": false,
         "da": [
           {
             "d": "2026-02-05",
@@ -277,6 +277,14 @@
             "p": true,
             "tm": "15:48:07",
             "percent": 80
+          },
+          {
+            "d": "2026-02-10",
+            "c": 5,
+            "t": 10,
+            "p": false,
+            "tm": "13:39:22",
+            "percent": 50
           }
         ],
         "percent": 80
@@ -2047,6 +2055,16 @@
       "day": "2026-02-10",
       "type": "math",
       "percent": 30
+    },
+    {
+      "s": "Валиуллин Владимир",
+      "d": "10.02.2026, 13:39:22",
+      "c": 5,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-10",
+      "type": "math",
+      "percent": 50
     }
   ],
   "ds": {
@@ -2174,16 +2192,17 @@
       }
     },
     "2026-02-10": {
-      "ta": 1,
+      "ta": 2,
       "pa": 0,
       "st": [
-        "Зубкова Мирослава"
+        "Зубкова Мирослава",
+        "Валиуллин Владимир"
       ],
-      "avg_percent": 30,
+      "avg_percent": 40,
       "math_stats": {
-        "total": 1,
+        "total": 2,
         "passed": 0,
-        "avg_percent": 30
+        "avg_percent": 40
       },
       "russian_stats": {
         "total": 0,
@@ -2436,18 +2455,19 @@
       "avg_percentage": 61
     },
     "2026-02-10": {
-      "total_students": 1,
-      "total_attempts": 1,
+      "total_students": 2,
+      "total_attempts": 2,
       "passed_attempts": 0,
       "success_rate": 0,
-      "math_attempts": 1,
+      "math_attempts": 2,
       "math_success_rate": 0,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "top_students": [
+        "Валиуллин Владимир",
         "Зубкова Мирослава"
       ],
-      "avg_percentage": 30
+      "avg_percentage": 40
     }
   }
 }
