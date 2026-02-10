@@ -318,10 +318,10 @@
     {
       "n": "Валиуллина Вероника",
       "math": {
-        "a": 2,
+        "a": 3,
         "b": 9,
-        "l": "06.02.2026, 13:52:11",
-        "p": true,
+        "l": "10.02.2026, 15:00:27",
+        "p": false,
         "da": [
           {
             "d": "2026-02-05",
@@ -337,6 +337,14 @@
             "p": true,
             "tm": "13:52:11",
             "percent": 90
+          },
+          {
+            "d": "2026-02-10",
+            "c": 0,
+            "t": 10,
+            "p": false,
+            "tm": "15:00:27",
+            "percent": 0
           }
         ],
         "percent": 90
@@ -2194,6 +2202,16 @@
       "day": "2026-02-10",
       "type": "math",
       "percent": 40
+    },
+    {
+      "s": "Валиуллина Вероника",
+      "d": "10.02.2026, 15:00:27",
+      "c": 0,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-10",
+      "type": "math",
+      "percent": 0
     }
   ],
   "ds": {
@@ -2321,7 +2339,7 @@
       }
     },
     "2026-02-10": {
-      "ta": 9,
+      "ta": 10,
       "pa": 2,
       "st": [
         "Зубкова Мирослава",
@@ -2332,13 +2350,14 @@
         "Пермяков Дмитрий",
         "Первушина Вероника",
         "Любимов Семен",
-        "Власова Мария"
+        "Власова Мария",
+        "Валиуллина Вероника"
       ],
-      "avg_percent": 35,
+      "avg_percent": 32,
       "math_stats": {
-        "total": 9,
+        "total": 10,
         "passed": 2,
-        "avg_percent": 35
+        "avg_percent": 32
       },
       "russian_stats": {
         "total": 0,
@@ -2591,12 +2610,12 @@
       "avg_percentage": 61
     },
     "2026-02-10": {
-      "total_students": 9,
-      "total_attempts": 9,
+      "total_students": 10,
+      "total_attempts": 10,
       "passed_attempts": 2,
-      "success_rate": 22,
-      "math_attempts": 9,
-      "math_success_rate": 22,
+      "success_rate": 20,
+      "math_attempts": 10,
+      "math_success_rate": 20,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "top_students": [
@@ -2604,7 +2623,7 @@
         "Терпигорьева Алиса",
         "Валиуллин Владимир"
       ],
-      "avg_percentage": 35
+      "avg_percentage": 32
     }
   }
 }
