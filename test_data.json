@@ -170,10 +170,10 @@
     {
       "n": "Боталова Кира",
       "math": {
-        "a": 3,
+        "a": 4,
         "b": 9,
-        "l": "09.02.2026, 18:29:12",
-        "p": false,
+        "l": "10.02.2026, 13:54:16",
+        "p": true,
         "da": [
           {
             "d": "2026-02-05",
@@ -197,6 +197,14 @@
             "p": false,
             "tm": "18:29:12",
             "percent": 50
+          },
+          {
+            "d": "2026-02-10",
+            "c": 7,
+            "t": 10,
+            "p": true,
+            "tm": "13:54:16",
+            "percent": 70
           }
         ],
         "percent": 90
@@ -2083,6 +2091,16 @@
       "day": "2026-02-10",
       "type": "math",
       "percent": 50
+    },
+    {
+      "s": "Боталова Кира",
+      "d": "10.02.2026, 13:54:16",
+      "c": 7,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-10",
+      "type": "math",
+      "percent": 70
     }
   ],
   "ds": {
@@ -2210,18 +2228,19 @@
       }
     },
     "2026-02-10": {
-      "ta": 3,
-      "pa": 0,
+      "ta": 4,
+      "pa": 1,
       "st": [
         "Зубкова Мирослава",
         "Валиуллин Владимир",
-        "Гудошникова Виктория"
+        "Гудошникова Виктория",
+        "Боталова Кира"
       ],
-      "avg_percent": 43,
+      "avg_percent": 50,
       "math_stats": {
-        "total": 3,
-        "passed": 0,
-        "avg_percent": 43
+        "total": 4,
+        "passed": 1,
+        "avg_percent": 50
       },
       "russian_stats": {
         "total": 0,
@@ -2474,20 +2493,20 @@
       "avg_percentage": 61
     },
     "2026-02-10": {
-      "total_students": 3,
-      "total_attempts": 3,
-      "passed_attempts": 0,
-      "success_rate": 0,
-      "math_attempts": 3,
-      "math_success_rate": 0,
+      "total_students": 4,
+      "total_attempts": 4,
+      "passed_attempts": 1,
+      "success_rate": 25,
+      "math_attempts": 4,
+      "math_success_rate": 25,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "top_students": [
+        "Боталова Кира",
         "Валиуллин Владимир",
-        "Гудошникова Виктория",
-        "Зубкова Мирослава"
+        "Гудошникова Виктория"
       ],
-      "avg_percentage": 43
+      "avg_percentage": 50
     }
   }
 }
