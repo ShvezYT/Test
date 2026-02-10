@@ -101,11 +101,21 @@
     {
       "n": "Ахметзянов Артур",
       "math": {
-        "a": 0,
+        "a": 1,
         "b": 0,
-        "l": null,
+        "l": "10.02.2026, 15:01:05",
         "p": false,
-        "da": []
+        "da": [
+          {
+            "d": "2026-02-10",
+            "c": 0,
+            "t": 10,
+            "p": false,
+            "tm": "15:01:05",
+            "percent": 0
+          }
+        ],
+        "percent": 0
       },
       "russian": {
         "a": 0,
@@ -2212,6 +2222,16 @@
       "day": "2026-02-10",
       "type": "math",
       "percent": 0
+    },
+    {
+      "s": "Ахметзянов Артур",
+      "d": "10.02.2026, 15:01:05",
+      "c": 0,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-10",
+      "type": "math",
+      "percent": 0
     }
   ],
   "ds": {
@@ -2339,7 +2359,7 @@
       }
     },
     "2026-02-10": {
-      "ta": 10,
+      "ta": 11,
       "pa": 2,
       "st": [
         "Зубкова Мирослава",
@@ -2351,13 +2371,14 @@
         "Первушина Вероника",
         "Любимов Семен",
         "Власова Мария",
-        "Валиуллина Вероника"
+        "Валиуллина Вероника",
+        "Ахметзянов Артур"
       ],
-      "avg_percent": 32,
+      "avg_percent": 29,
       "math_stats": {
-        "total": 10,
+        "total": 11,
         "passed": 2,
-        "avg_percent": 32
+        "avg_percent": 29
       },
       "russian_stats": {
         "total": 0,
@@ -2610,12 +2631,12 @@
       "avg_percentage": 61
     },
     "2026-02-10": {
-      "total_students": 10,
-      "total_attempts": 10,
+      "total_students": 11,
+      "total_attempts": 11,
       "passed_attempts": 2,
-      "success_rate": 20,
-      "math_attempts": 10,
-      "math_success_rate": 20,
+      "success_rate": 18,
+      "math_attempts": 11,
+      "math_success_rate": 18,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "top_students": [
@@ -2623,7 +2644,7 @@
         "Терпигорьева Алиса",
         "Валиуллин Владимир"
       ],
-      "avg_percentage": 32
+      "avg_percentage": 29
     }
   }
 }
