@@ -476,11 +476,21 @@
     {
       "n": "Зубкова Мирослава",
       "math": {
-        "a": 0,
-        "b": 0,
-        "l": null,
+        "a": 1,
+        "b": 3,
+        "l": "10.02.2026, 13:22:05",
         "p": false,
-        "da": []
+        "da": [
+          {
+            "d": "2026-02-10",
+            "c": 3,
+            "t": 10,
+            "p": false,
+            "tm": "13:22:05",
+            "percent": 30
+          }
+        ],
+        "percent": 30
       },
       "russian": {
         "a": 0,
@@ -2027,6 +2037,16 @@
       "day": "2026-02-09",
       "type": "math",
       "percent": 80
+    },
+    {
+      "s": "Зубкова Мирослава",
+      "d": "10.02.2026, 13:22:05",
+      "c": 3,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-10",
+      "type": "math",
+      "percent": 30
     }
   ],
   "ds": {
@@ -2149,6 +2169,24 @@
       },
       "russian_stats": {
         "total": 1,
+        "passed": 0,
+        "avg_percent": 0
+      }
+    },
+    "2026-02-10": {
+      "ta": 1,
+      "pa": 0,
+      "st": [
+        "Зубкова Мирослава"
+      ],
+      "avg_percent": 30,
+      "math_stats": {
+        "total": 1,
+        "passed": 0,
+        "avg_percent": 30
+      },
+      "russian_stats": {
+        "total": 0,
         "passed": 0,
         "avg_percent": 0
       }
@@ -2396,6 +2434,20 @@
         "Абракомова Анастасия"
       ],
       "avg_percentage": 61
+    },
+    "2026-02-10": {
+      "total_students": 1,
+      "total_attempts": 1,
+      "passed_attempts": 0,
+      "success_rate": 0,
+      "math_attempts": 1,
+      "math_success_rate": 0,
+      "russian_attempts": 0,
+      "russian_success_rate": 0,
+      "top_students": [
+        "Зубкова Мирослава"
+      ],
+      "avg_percentage": 30
     }
   }
 }
