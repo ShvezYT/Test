@@ -380,10 +380,10 @@
     {
       "n": "Гудошникова Виктория",
       "math": {
-        "a": 3,
+        "a": 4,
         "b": 7,
-        "l": "06.02.2026, 18:19:23",
-        "p": true,
+        "l": "10.02.2026, 13:49:54",
+        "p": false,
         "da": [
           {
             "d": "2026-02-05",
@@ -407,6 +407,14 @@
             "p": true,
             "tm": "18:19:23",
             "percent": 70
+          },
+          {
+            "d": "2026-02-10",
+            "c": 5,
+            "t": 10,
+            "p": false,
+            "tm": "13:49:54",
+            "percent": 50
           }
         ],
         "percent": 70
@@ -2065,6 +2073,16 @@
       "day": "2026-02-10",
       "type": "math",
       "percent": 50
+    },
+    {
+      "s": "Гудошникова Виктория",
+      "d": "10.02.2026, 13:49:54",
+      "c": 5,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-10",
+      "type": "math",
+      "percent": 50
     }
   ],
   "ds": {
@@ -2192,17 +2210,18 @@
       }
     },
     "2026-02-10": {
-      "ta": 2,
+      "ta": 3,
       "pa": 0,
       "st": [
         "Зубкова Мирослава",
-        "Валиуллин Владимир"
+        "Валиуллин Владимир",
+        "Гудошникова Виктория"
       ],
-      "avg_percent": 40,
+      "avg_percent": 43,
       "math_stats": {
-        "total": 2,
+        "total": 3,
         "passed": 0,
-        "avg_percent": 40
+        "avg_percent": 43
       },
       "russian_stats": {
         "total": 0,
@@ -2455,19 +2474,20 @@
       "avg_percentage": 61
     },
     "2026-02-10": {
-      "total_students": 2,
-      "total_attempts": 2,
+      "total_students": 3,
+      "total_attempts": 3,
       "passed_attempts": 0,
       "success_rate": 0,
-      "math_attempts": 2,
+      "math_attempts": 3,
       "math_success_rate": 0,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "top_students": [
         "Валиуллин Владимир",
+        "Гудошникова Виктория",
         "Зубкова Мирослава"
       ],
-      "avg_percentage": 40
+      "avg_percentage": 43
     }
   }
 }
