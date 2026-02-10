@@ -916,9 +916,9 @@
     {
       "n": "Пермяков Дмитрий",
       "math": {
-        "a": 2,
+        "a": 3,
         "b": 4,
-        "l": "06.02.2026, 14:49:00",
+        "l": "10.02.2026, 13:59:47",
         "p": false,
         "da": [
           {
@@ -935,6 +935,14 @@
             "p": false,
             "tm": "14:49:00",
             "percent": 30
+          },
+          {
+            "d": "2026-02-10",
+            "c": 0,
+            "t": 10,
+            "p": false,
+            "tm": "13:59:47",
+            "percent": 0
           }
         ],
         "percent": 30
@@ -2119,6 +2127,16 @@
       "day": "2026-02-10",
       "type": "math",
       "percent": 70
+    },
+    {
+      "s": "Пермяков Дмитрий",
+      "d": "10.02.2026, 13:59:47",
+      "c": 0,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-10",
+      "type": "math",
+      "percent": 0
     }
   ],
   "ds": {
@@ -2246,20 +2264,21 @@
       }
     },
     "2026-02-10": {
-      "ta": 5,
+      "ta": 6,
       "pa": 2,
       "st": [
         "Зубкова Мирослава",
         "Валиуллин Владимир",
         "Гудошникова Виктория",
         "Боталова Кира",
-        "Терпигорьева Алиса"
+        "Терпигорьева Алиса",
+        "Пермяков Дмитрий"
       ],
-      "avg_percent": 54,
+      "avg_percent": 45,
       "math_stats": {
-        "total": 5,
+        "total": 6,
         "passed": 2,
-        "avg_percent": 54
+        "avg_percent": 45
       },
       "russian_stats": {
         "total": 0,
@@ -2512,12 +2531,12 @@
       "avg_percentage": 61
     },
     "2026-02-10": {
-      "total_students": 5,
-      "total_attempts": 5,
+      "total_students": 6,
+      "total_attempts": 6,
       "passed_attempts": 2,
-      "success_rate": 40,
-      "math_attempts": 5,
-      "math_success_rate": 40,
+      "success_rate": 33,
+      "math_attempts": 6,
+      "math_success_rate": 33,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "top_students": [
@@ -2525,7 +2544,7 @@
         "Терпигорьева Алиса",
         "Валиуллин Владимир"
       ],
-      "avg_percentage": 54
+      "avg_percentage": 45
     }
   }
 }
