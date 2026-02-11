@@ -555,9 +555,9 @@
     {
       "n": "Калинин Егор",
       "math": {
-        "a": 3,
+        "a": 4,
         "b": 9,
-        "l": "09.02.2026, 18:45:05",
+        "l": "11.02.2026, 13:38:47",
         "p": true,
         "da": [
           {
@@ -582,6 +582,14 @@
             "p": true,
             "tm": "18:45:05",
             "percent": 80
+          },
+          {
+            "d": "2026-02-11",
+            "c": 7,
+            "t": 10,
+            "p": true,
+            "tm": "13:38:47",
+            "percent": 70
           }
         ],
         "percent": 90
@@ -2250,6 +2258,16 @@
       "day": "2026-02-10",
       "type": "math",
       "percent": 20
+    },
+    {
+      "s": "Калинин Егор",
+      "d": "11.02.2026, 13:38:47",
+      "c": 7,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-11",
+      "type": "math",
+      "percent": 70
     }
   ],
   "ds": {
@@ -2398,6 +2416,24 @@
         "total": 12,
         "passed": 2,
         "avg_percent": 28
+      },
+      "russian_stats": {
+        "total": 0,
+        "passed": 0,
+        "avg_percent": 0
+      }
+    },
+    "2026-02-11": {
+      "ta": 1,
+      "pa": 1,
+      "st": [
+        "Калинин Егор"
+      ],
+      "avg_percent": 70,
+      "math_stats": {
+        "total": 1,
+        "passed": 1,
+        "avg_percent": 70
       },
       "russian_stats": {
         "total": 0,
@@ -2664,6 +2700,20 @@
         "Валиуллин Владимир"
       ],
       "avg_percentage": 28
+    },
+    "2026-02-11": {
+      "total_students": 1,
+      "total_attempts": 1,
+      "passed_attempts": 1,
+      "success_rate": 100,
+      "math_attempts": 1,
+      "math_success_rate": 100,
+      "russian_attempts": 0,
+      "russian_success_rate": 0,
+      "top_students": [
+        "Калинин Егор"
+      ],
+      "avg_percentage": 70
     }
   }
 }
