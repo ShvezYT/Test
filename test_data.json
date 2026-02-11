@@ -344,9 +344,9 @@
     {
       "n": "Валиуллина Вероника",
       "math": {
-        "a": 3,
+        "a": 4,
         "b": 9,
-        "l": "10.02.2026, 15:00:27",
+        "l": "11.02.2026, 13:46:38",
         "p": false,
         "da": [
           {
@@ -371,6 +371,14 @@
             "p": false,
             "tm": "15:00:27",
             "percent": 0
+          },
+          {
+            "d": "2026-02-11",
+            "c": 4,
+            "t": 10,
+            "p": false,
+            "tm": "13:46:38",
+            "percent": 40
           }
         ],
         "percent": 90
@@ -2322,6 +2330,16 @@
       "day": "2026-02-11",
       "type": "math",
       "percent": 60
+    },
+    {
+      "s": "Валиуллина Вероника",
+      "d": "11.02.2026, 13:46:38",
+      "c": 4,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-11",
+      "type": "math",
+      "percent": 40
     }
   ],
   "ds": {
@@ -2478,19 +2496,20 @@
       }
     },
     "2026-02-11": {
-      "ta": 4,
+      "ta": 5,
       "pa": 3,
       "st": [
         "Калинин Егор",
         "Абракомова Анастасия",
         "Терпигорьева Алиса",
-        "Абросимова Кира"
+        "Абросимова Кира",
+        "Валиуллина Вероника"
       ],
-      "avg_percent": 80,
+      "avg_percent": 72,
       "math_stats": {
-        "total": 4,
+        "total": 5,
         "passed": 3,
-        "avg_percent": 80
+        "avg_percent": 72
       },
       "russian_stats": {
         "total": 0,
@@ -2759,12 +2778,12 @@
       "avg_percentage": 28
     },
     "2026-02-11": {
-      "total_students": 4,
-      "total_attempts": 4,
+      "total_students": 5,
+      "total_attempts": 5,
       "passed_attempts": 3,
-      "success_rate": 75,
-      "math_attempts": 4,
-      "math_success_rate": 75,
+      "success_rate": 60,
+      "math_attempts": 5,
+      "math_success_rate": 60,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "top_students": [
@@ -2772,7 +2791,7 @@
         "Абракомова Анастасия",
         "Калинин Егор"
       ],
-      "avg_percentage": 80
+      "avg_percentage": 72
     }
   }
 }
