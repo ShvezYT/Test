@@ -264,9 +264,9 @@
     {
       "n": "Бурнашов Иван",
       "math": {
-        "a": 3,
+        "a": 4,
         "b": 10,
-        "l": "11.02.2026, 22:49:31",
+        "l": "11.02.2026, 22:49:34",
         "p": false,
         "da": [
           {
@@ -291,6 +291,14 @@
             "t": 10,
             "p": false,
             "tm": "22:49:31",
+            "percent": 0
+          },
+          {
+            "d": "2026-02-11",
+            "c": 0,
+            "t": 10,
+            "p": false,
+            "tm": "22:49:34",
             "percent": 0
           }
         ],
@@ -1437,16 +1445,6 @@
   "c": [],
   "att": [
     {
-      "s": "Боталова Кира",
-      "d": "05.02.2026, 13:55:02",
-      "c": 7,
-      "t": 10,
-      "p": true,
-      "day": "2026-02-05",
-      "type": "math",
-      "percent": 70
-    },
-    {
       "s": "Абракомова Анастасия",
       "d": "05.02.2026, 13:56:23",
       "c": 10,
@@ -2435,6 +2433,16 @@
       "day": "2026-02-11",
       "type": "math",
       "percent": 0
+    },
+    {
+      "s": "Бурнашов Иван",
+      "d": "11.02.2026, 22:49:34",
+      "c": 0,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-11",
+      "type": "math",
+      "percent": 0
     }
   ],
   "ds": {
@@ -2591,7 +2599,7 @@
       }
     },
     "2026-02-11": {
-      "ta": 17,
+      "ta": 18,
       "pa": 10,
       "st": [
         "Калинин Егор",
@@ -2612,11 +2620,11 @@
         "Чистякова Виктория",
         "Бурнашов Иван"
       ],
-      "avg_percent": 66,
+      "avg_percent": 62,
       "math_stats": {
-        "total": 17,
+        "total": 18,
         "passed": 10,
-        "avg_percent": 66
+        "avg_percent": 62
       },
       "russian_stats": {
         "total": 0,
@@ -2886,11 +2894,11 @@
     },
     "2026-02-11": {
       "total_students": 17,
-      "total_attempts": 17,
+      "total_attempts": 18,
       "passed_attempts": 10,
-      "success_rate": 59,
-      "math_attempts": 17,
-      "math_success_rate": 59,
+      "success_rate": 56,
+      "math_attempts": 18,
+      "math_success_rate": 56,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "top_students": [
@@ -2898,7 +2906,7 @@
         "Абракомова Анастасия",
         "Фукалова Арина"
       ],
-      "avg_percentage": 66
+      "avg_percentage": 62
     }
   }
 }
