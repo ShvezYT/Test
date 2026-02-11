@@ -14,9 +14,9 @@
     {
       "n": "Абракомова Анастасия",
       "math": {
-        "a": 3,
+        "a": 4,
         "b": 10,
-        "l": "09.02.2026, 18:30:54",
+        "l": "11.02.2026, 13:40:21",
         "p": true,
         "da": [
           {
@@ -41,6 +41,14 @@
             "p": true,
             "tm": "18:30:54",
             "percent": 100
+          },
+          {
+            "d": "2026-02-11",
+            "c": 9,
+            "t": 10,
+            "p": true,
+            "tm": "13:40:21",
+            "percent": 90
           }
         ],
         "percent": 100
@@ -2268,6 +2276,16 @@
       "day": "2026-02-11",
       "type": "math",
       "percent": 70
+    },
+    {
+      "s": "Абракомова Анастасия",
+      "d": "11.02.2026, 13:40:21",
+      "c": 9,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-11",
+      "type": "math",
+      "percent": 90
     }
   ],
   "ds": {
@@ -2424,16 +2442,17 @@
       }
     },
     "2026-02-11": {
-      "ta": 1,
-      "pa": 1,
+      "ta": 2,
+      "pa": 2,
       "st": [
-        "Калинин Егор"
+        "Калинин Егор",
+        "Абракомова Анастасия"
       ],
-      "avg_percent": 70,
+      "avg_percent": 80,
       "math_stats": {
-        "total": 1,
-        "passed": 1,
-        "avg_percent": 70
+        "total": 2,
+        "passed": 2,
+        "avg_percent": 80
       },
       "russian_stats": {
         "total": 0,
@@ -2702,18 +2721,19 @@
       "avg_percentage": 28
     },
     "2026-02-11": {
-      "total_students": 1,
-      "total_attempts": 1,
-      "passed_attempts": 1,
+      "total_students": 2,
+      "total_attempts": 2,
+      "passed_attempts": 2,
       "success_rate": 100,
-      "math_attempts": 1,
+      "math_attempts": 2,
       "math_success_rate": 100,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "top_students": [
+        "Абракомова Анастасия",
         "Калинин Егор"
       ],
-      "avg_percentage": 70
+      "avg_percentage": 80
     }
   }
 }
