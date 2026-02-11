@@ -735,9 +735,9 @@
     {
       "n": "Любимов Семен",
       "math": {
-        "a": 2,
+        "a": 3,
         "b": 9,
-        "l": "10.02.2026, 14:01:03",
+        "l": "11.02.2026, 14:53:30",
         "p": false,
         "da": [
           {
@@ -753,6 +753,14 @@
             "t": 10,
             "p": false,
             "tm": "14:01:03",
+            "percent": 0
+          },
+          {
+            "d": "2026-02-11",
+            "c": 0,
+            "t": 10,
+            "p": false,
+            "tm": "14:53:30",
             "percent": 0
           }
         ],
@@ -1341,16 +1349,6 @@
     "Бурнашов Иван"
   ],
   "att": [
-    {
-      "s": "Балдаков Степан",
-      "d": "05.02.2026, 13:30:12",
-      "c": 10,
-      "t": 10,
-      "p": true,
-      "day": "2026-02-05",
-      "type": "math",
-      "percent": 100
-    },
     {
       "s": "Балдаков Степан",
       "d": "05.02.2026, 13:31:30",
@@ -2340,6 +2338,16 @@
       "day": "2026-02-11",
       "type": "math",
       "percent": 40
+    },
+    {
+      "s": "Любимов Семен",
+      "d": "11.02.2026, 14:53:30",
+      "c": 0,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-11",
+      "type": "math",
+      "percent": 0
     }
   ],
   "ds": {
@@ -2496,20 +2504,21 @@
       }
     },
     "2026-02-11": {
-      "ta": 5,
+      "ta": 6,
       "pa": 3,
       "st": [
         "Калинин Егор",
         "Абракомова Анастасия",
         "Терпигорьева Алиса",
         "Абросимова Кира",
-        "Валиуллина Вероника"
+        "Валиуллина Вероника",
+        "Любимов Семен"
       ],
-      "avg_percent": 72,
+      "avg_percent": 60,
       "math_stats": {
-        "total": 5,
+        "total": 6,
         "passed": 3,
-        "avg_percent": 72
+        "avg_percent": 60
       },
       "russian_stats": {
         "total": 0,
@@ -2778,12 +2787,12 @@
       "avg_percentage": 28
     },
     "2026-02-11": {
-      "total_students": 5,
-      "total_attempts": 5,
+      "total_students": 6,
+      "total_attempts": 6,
       "passed_attempts": 3,
-      "success_rate": 60,
-      "math_attempts": 5,
-      "math_success_rate": 60,
+      "success_rate": 50,
+      "math_attempts": 6,
+      "math_success_rate": 50,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "top_students": [
@@ -2791,7 +2800,7 @@
         "Абракомова Анастасия",
         "Калинин Егор"
       ],
-      "avg_percentage": 72
+      "avg_percentage": 60
     }
   }
 }
