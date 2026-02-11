@@ -1191,9 +1191,9 @@
     {
       "n": "Фукалова Арина",
       "math": {
-        "a": 3,
-        "b": 8,
-        "l": "09.02.2026, 18:33:15",
+        "a": 4,
+        "b": 9,
+        "l": "11.02.2026, 14:55:20",
         "p": true,
         "da": [
           {
@@ -1218,9 +1218,17 @@
             "p": true,
             "tm": "18:33:15",
             "percent": 80
+          },
+          {
+            "d": "2026-02-11",
+            "c": 9,
+            "t": 10,
+            "p": true,
+            "tm": "14:55:20",
+            "percent": 90
           }
         ],
-        "percent": 80
+        "percent": 90
       },
       "russian": {
         "a": 1,
@@ -1349,16 +1357,6 @@
     "Бурнашов Иван"
   ],
   "att": [
-    {
-      "s": "Балдаков Степан",
-      "d": "05.02.2026, 13:31:30",
-      "c": 10,
-      "t": 10,
-      "p": true,
-      "day": "2026-02-05",
-      "type": "math",
-      "percent": 100
-    },
     {
       "s": "Валиуллина Вероника",
       "d": "05.02.2026, 13:33:05",
@@ -2348,6 +2346,16 @@
       "day": "2026-02-11",
       "type": "math",
       "percent": 0
+    },
+    {
+      "s": "Фукалова Арина",
+      "d": "11.02.2026, 14:55:20",
+      "c": 9,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-11",
+      "type": "math",
+      "percent": 90
     }
   ],
   "ds": {
@@ -2504,21 +2512,22 @@
       }
     },
     "2026-02-11": {
-      "ta": 6,
-      "pa": 3,
+      "ta": 7,
+      "pa": 4,
       "st": [
         "Калинин Егор",
         "Абракомова Анастасия",
         "Терпигорьева Алиса",
         "Абросимова Кира",
         "Валиуллина Вероника",
-        "Любимов Семен"
+        "Любимов Семен",
+        "Фукалова Арина"
       ],
-      "avg_percent": 60,
+      "avg_percent": 64,
       "math_stats": {
-        "total": 6,
-        "passed": 3,
-        "avg_percent": 60
+        "total": 7,
+        "passed": 4,
+        "avg_percent": 64
       },
       "russian_stats": {
         "total": 0,
@@ -2787,20 +2796,20 @@
       "avg_percentage": 28
     },
     "2026-02-11": {
-      "total_students": 6,
-      "total_attempts": 6,
-      "passed_attempts": 3,
-      "success_rate": 50,
-      "math_attempts": 6,
-      "math_success_rate": 50,
+      "total_students": 7,
+      "total_attempts": 7,
+      "passed_attempts": 4,
+      "success_rate": 57,
+      "math_attempts": 7,
+      "math_success_rate": 57,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "top_students": [
         "Терпигорьева Алиса",
         "Абракомова Анастасия",
-        "Калинин Егор"
+        "Фукалова Арина"
       ],
-      "avg_percentage": 60
+      "avg_percentage": 64
     }
   }
 }
