@@ -487,10 +487,10 @@
     {
       "n": "Гудошникова Виктория",
       "math": {
-        "a": 5,
+        "a": 6,
         "b": 7,
-        "l": "11.02.2026, 18:38:54",
-        "p": false,
+        "l": "12.02.2026, 18:21:05",
+        "p": true,
         "da": [
           {
             "d": "2026-02-05",
@@ -530,6 +530,14 @@
             "p": false,
             "tm": "18:38:54",
             "percent": 50
+          },
+          {
+            "d": "2026-02-12",
+            "c": 7,
+            "t": 10,
+            "p": true,
+            "tm": "18:21:05",
+            "percent": 70
           }
         ],
         "percent": 70
@@ -1468,16 +1476,6 @@
   ],
   "c": [],
   "att": [
-    {
-      "s": "Чистякова Виктория",
-      "d": "05.02.2026, 14:01:02",
-      "c": 7,
-      "t": 10,
-      "p": true,
-      "day": "2026-02-05",
-      "type": "math",
-      "percent": 70
-    },
     {
       "s": "Чистякова Виктория",
       "d": "05.02.2026, 14:01:49",
@@ -2467,6 +2465,16 @@
       "day": "2026-02-12",
       "type": "russian",
       "percent": 40
+    },
+    {
+      "s": "Гудошникова Виктория",
+      "d": "12.02.2026, 18:21:05",
+      "c": 7,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-12",
+      "type": "math",
+      "percent": 70
     }
   ],
   "ds": {
@@ -2657,17 +2665,18 @@
       }
     },
     "2026-02-12": {
-      "ta": 3,
-      "pa": 1,
+      "ta": 4,
+      "pa": 2,
       "st": [
         "Бурнашов Иван",
-        "Боталова Кира"
+        "Боталова Кира",
+        "Гудошникова Виктория"
       ],
-      "avg_percent": 37,
+      "avg_percent": 45,
       "math_stats": {
-        "total": 2,
-        "passed": 1,
-        "avg_percent": 35
+        "total": 3,
+        "passed": 2,
+        "avg_percent": 47
       },
       "russian_stats": {
         "total": 1,
@@ -2952,19 +2961,20 @@
       "avg_percentage": 62
     },
     "2026-02-12": {
-      "total_students": 2,
-      "total_attempts": 3,
-      "passed_attempts": 1,
-      "success_rate": 33,
-      "math_attempts": 2,
-      "math_success_rate": 50,
+      "total_students": 3,
+      "total_attempts": 4,
+      "passed_attempts": 2,
+      "success_rate": 50,
+      "math_attempts": 3,
+      "math_success_rate": 67,
       "russian_attempts": 1,
       "russian_success_rate": 0,
       "top_students": [
         "Боталова Кира",
+        "Гудошникова Виктория",
         "Бурнашов Иван"
       ],
-      "avg_percentage": 37
+      "avg_percentage": 45
     }
   }
 }
