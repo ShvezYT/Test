@@ -264,9 +264,9 @@
     {
       "n": "Бурнашов Иван",
       "math": {
-        "a": 4,
+        "a": 5,
         "b": 10,
-        "l": "11.02.2026, 22:49:34",
+        "l": "12.02.2026, 12:28:12",
         "p": false,
         "da": [
           {
@@ -299,6 +299,14 @@
             "t": 10,
             "p": false,
             "tm": "22:49:34",
+            "percent": 0
+          },
+          {
+            "d": "2026-02-12",
+            "c": 0,
+            "t": 10,
+            "p": false,
+            "tm": "12:28:12",
             "percent": 0
           }
         ],
@@ -1445,16 +1453,6 @@
   "c": [],
   "att": [
     {
-      "s": "Абракомова Анастасия",
-      "d": "05.02.2026, 13:56:23",
-      "c": 10,
-      "t": 10,
-      "p": true,
-      "day": "2026-02-05",
-      "type": "math",
-      "percent": 100
-    },
-    {
       "s": "Елизарова Влада",
       "d": "05.02.2026, 13:58:14",
       "c": 8,
@@ -2443,6 +2441,16 @@
       "day": "2026-02-11",
       "type": "math",
       "percent": 0
+    },
+    {
+      "s": "Бурнашов Иван",
+      "d": "12.02.2026, 12:28:12",
+      "c": 0,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-12",
+      "type": "math",
+      "percent": 0
     }
   ],
   "ds": {
@@ -2625,6 +2633,24 @@
         "total": 18,
         "passed": 10,
         "avg_percent": 62
+      },
+      "russian_stats": {
+        "total": 0,
+        "passed": 0,
+        "avg_percent": 0
+      }
+    },
+    "2026-02-12": {
+      "ta": 1,
+      "pa": 0,
+      "st": [
+        "Бурнашов Иван"
+      ],
+      "avg_percent": 0,
+      "math_stats": {
+        "total": 1,
+        "passed": 0,
+        "avg_percent": 0
       },
       "russian_stats": {
         "total": 0,
@@ -2907,6 +2933,20 @@
         "Фукалова Арина"
       ],
       "avg_percentage": 62
+    },
+    "2026-02-12": {
+      "total_students": 1,
+      "total_attempts": 1,
+      "passed_attempts": 0,
+      "success_rate": 0,
+      "math_attempts": 1,
+      "math_success_rate": 0,
+      "russian_attempts": 0,
+      "russian_success_rate": 0,
+      "top_students": [
+        "Бурнашов Иван"
+      ],
+      "avg_percentage": 0
     }
   }
 }
