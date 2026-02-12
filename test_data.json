@@ -904,12 +904,23 @@
         "exit_count": 1
       },
       "russian": {
-        "a": 0,
+        "a": 1,
         "b": 0,
         "l": null,
         "p": false,
-        "da": [],
-        "percent": 0
+        "da": [
+          {
+            "d": "2026-02-12",
+            "c": 0,
+            "t": 10,
+            "p": false,
+            "tm": "22:15:46",
+            "percent": 0,
+            "exited": true
+          }
+        ],
+        "percent": 0,
+        "exit_count": 1
       }
     },
     {
@@ -1569,16 +1580,6 @@
   ],
   "c": [],
   "att": [
-    {
-      "s": "Терпигорьева Алиса",
-      "d": "06.02.2026, 13:42:15",
-      "c": 10,
-      "t": 10,
-      "p": true,
-      "day": "2026-02-06",
-      "type": "math",
-      "percent": 100
-    },
     {
       "s": "Терпигорьева Алиса",
       "d": "06.02.2026, 13:43:14",
@@ -2575,6 +2576,17 @@
       "type": "math",
       "percent": 0,
       "exited": true
+    },
+    {
+      "s": "Любимов Семен",
+      "d": "12.02.2026, 22:15:46",
+      "c": 0,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-12",
+      "type": "russian",
+      "percent": 0,
+      "exited": true
     }
   ],
   "ds": {
@@ -2765,7 +2777,7 @@
       }
     },
     "2026-02-12": {
-      "ta": 14,
+      "ta": 15,
       "pa": 3,
       "st": [
         "Бурнашов Иван",
@@ -2776,7 +2788,7 @@
         "Серебрякова Милана",
         "Любимов Семен"
       ],
-      "avg_percent": 23,
+      "avg_percent": 22,
       "math_stats": {
         "total": 9,
         "passed": 3,
@@ -2784,10 +2796,10 @@
         "exit_count": 5
       },
       "russian_stats": {
-        "total": 5,
+        "total": 6,
         "passed": 0,
-        "avg_percent": 24,
-        "exit_count": 2
+        "avg_percent": 20,
+        "exit_count": 3
       }
     }
   },
@@ -3068,21 +3080,21 @@
     },
     "2026-02-12": {
       "total_students": 7,
-      "total_attempts": 14,
+      "total_attempts": 15,
       "passed_attempts": 3,
-      "success_rate": 21,
+      "success_rate": 20,
       "math_attempts": 9,
       "math_success_rate": 33,
-      "russian_attempts": 5,
+      "russian_attempts": 6,
       "russian_success_rate": 0,
       "top_students": [
         "Боталова Кира",
         "Гудошникова Виктория",
         "Фукалова Арина"
       ],
-      "avg_percentage": 23,
+      "avg_percentage": 22,
       "math_exit_count": 5,
-      "russian_exit_count": 2
+      "russian_exit_count": 3
     }
   }
 }
