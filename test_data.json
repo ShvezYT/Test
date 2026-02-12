@@ -1352,10 +1352,10 @@
         "percent": 90
       },
       "russian": {
-        "a": 1,
+        "a": 2,
         "b": 8,
-        "l": "06.02.2026, 13:58:54",
-        "p": true,
+        "l": "12.02.2026, 18:27:27",
+        "p": false,
         "da": [
           {
             "d": "2026-02-06",
@@ -1364,6 +1364,14 @@
             "p": true,
             "tm": "13:58:54",
             "percent": 80
+          },
+          {
+            "d": "2026-02-12",
+            "c": 2,
+            "t": 10,
+            "p": false,
+            "tm": "18:27:27",
+            "percent": 20
           }
         ],
         "percent": 80
@@ -1492,16 +1500,6 @@
   ],
   "c": [],
   "att": [
-    {
-      "s": "Любимов Семен",
-      "d": "05.02.2026, 14:49:39",
-      "c": 9,
-      "t": 10,
-      "p": true,
-      "day": "2026-02-05",
-      "type": "math",
-      "percent": 90
-    },
     {
       "s": "Тимофеев Константин",
       "d": "05.02.2026, 14:51:39",
@@ -2491,6 +2489,16 @@
       "day": "2026-02-12",
       "type": "math",
       "percent": 70
+    },
+    {
+      "s": "Фукалова Арина",
+      "d": "12.02.2026, 18:27:27",
+      "c": 2,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-12",
+      "type": "russian",
+      "percent": 20
     }
   ],
   "ds": {
@@ -2681,7 +2689,7 @@
       }
     },
     "2026-02-12": {
-      "ta": 6,
+      "ta": 7,
       "pa": 3,
       "st": [
         "Бурнашов Иван",
@@ -2689,16 +2697,16 @@
         "Гудошникова Виктория",
         "Фукалова Арина"
       ],
-      "avg_percent": 52,
+      "avg_percent": 47,
       "math_stats": {
         "total": 4,
         "passed": 3,
         "avg_percent": 53
       },
       "russian_stats": {
-        "total": 2,
+        "total": 3,
         "passed": 0,
-        "avg_percent": 50
+        "avg_percent": 40
       }
     }
   },
@@ -2979,19 +2987,19 @@
     },
     "2026-02-12": {
       "total_students": 4,
-      "total_attempts": 6,
+      "total_attempts": 7,
       "passed_attempts": 3,
-      "success_rate": 50,
+      "success_rate": 43,
       "math_attempts": 4,
       "math_success_rate": 75,
-      "russian_attempts": 2,
+      "russian_attempts": 3,
       "russian_success_rate": 0,
       "top_students": [
         "Боталова Кира",
         "Гудошникова Виктория",
         "Фукалова Арина"
       ],
-      "avg_percentage": 52
+      "avg_percentage": 47
     }
   }
 }
