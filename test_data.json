@@ -329,19 +329,11 @@
     {
       "n": "Бурнашов Иван",
       "math": {
-        "a": 11,
+        "a": 12,
         "b": 10,
         "l": "12.02.2026, 12:28:12",
         "p": false,
         "da": [
-          {
-            "d": "2026-02-09",
-            "c": 10,
-            "t": 10,
-            "p": true,
-            "tm": "13:45:54",
-            "percent": 100
-          },
           {
             "d": "2026-02-11",
             "c": 0,
@@ -419,10 +411,19 @@
             "tm": "13:27:24",
             "percent": 0,
             "exited": true
+          },
+          {
+            "d": "2026-02-13",
+            "c": 0,
+            "t": 10,
+            "p": false,
+            "tm": "13:30:03",
+            "percent": 0,
+            "exited": true
           }
         ],
         "percent": 100,
-        "exit_count": 6
+        "exit_count": 7
       },
       "russian": {
         "a": 0,
@@ -1639,16 +1640,6 @@
   "att": [
     {
       "s": "Абракомова Анастасия",
-      "d": "06.02.2026, 13:54:24",
-      "c": 9,
-      "t": 10,
-      "p": true,
-      "day": "2026-02-06",
-      "type": "math",
-      "percent": 90
-    },
-    {
-      "s": "Абракомова Анастасия",
       "d": "06.02.2026, 13:55:33",
       "c": 10,
       "t": 10,
@@ -2651,6 +2642,17 @@
       "type": "math",
       "percent": 0,
       "exited": true
+    },
+    {
+      "s": "Бурнашов Иван",
+      "d": "13.02.2026, 13:30:03",
+      "c": 0,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-13",
+      "type": "math",
+      "percent": 0,
+      "exited": true
     }
   ],
   "ds": {
@@ -2834,17 +2836,17 @@
       }
     },
     "2026-02-13": {
-      "ta": 1,
+      "ta": 2,
       "pa": 0,
       "st": [
         "Бурнашов Иван"
       ],
       "avg_percent": 0,
       "math_stats": {
-        "total": 1,
+        "total": 2,
         "passed": 0,
         "avg_percent": 0,
-        "exit_count": 1
+        "exit_count": 2
       },
       "russian_stats": {
         "total": 0,
@@ -3039,12 +3041,12 @@
   "calendar_stats": {
     "2026-02-13": {
       "total_students": 1,
-      "total_attempts": 1,
+      "total_attempts": 2,
       "passed_attempts": 0,
       "success_rate": 0,
-      "math_attempts": 1,
+      "math_attempts": 2,
       "math_success_rate": 0,
-      "math_exit_count": 1,
+      "math_exit_count": 2,
       "russian_attempts": 0,
       "russian_success_rate": 0,
       "russian_exit_count": 0,
