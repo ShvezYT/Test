@@ -2652,54 +2652,10 @@
     }
   ],
   "ds": {
-    "2026-02-05": {
-      "ta": 25,
-      "pa": 21,
-      "st": [
-        "Балдаков Степан",
-        "Валиуллина Вероника",
-        "Лазарев Никита",
-        "Маргарян Артём",
-        "Лицкевич Ярослав",
-        "Терпигорьева Алиса",
-        "Новиков Павел",
-        "Серебрякова Милана",
-        "Фукалова Арина",
-        "Валиуллин Владимир",
-        "Ненастьева Василиса",
-        "Боталова Кира",
-        "Абракомова Анастасия",
-        "Елизарова Влада",
-        "Первушина Вероника",
-        "Чистякова Виктория",
-        "Пермяков Дмитрий",
-        "Любимов Семен",
-        "Тимофеев Константин",
-        "Власова Мария",
-        "Гудошникова Виктория",
-        "Калинин Егор",
-        "Абросимова Кира"
-      ],
-      "avg_percent": 82,
-      "math_stats": {
-        "total": 25,
-        "passed": 21,
-        "avg_percent": 82
-      },
-      "russian_stats": {
-        "total": 0,
-        "passed": 0,
-        "avg_percent": 0
-      }
-    },
     "2026-02-06": {
-      "ta": 41,
-      "pa": 34,
+      "ta": 32,
+      "pa": 25,
       "st": [
-        "Лазарев Никита",
-        "Терпигорьева Алиса",
-        "Калинин Егор",
-        "Серебрякова Милана",
         "Валиуллина Вероника",
         "Абракомова Анастасия",
         "Фукалова Арина",
@@ -2715,16 +2671,18 @@
         "Ненастьева Василиса",
         "Балдаков Степан"
       ],
-      "avg_percent": 81,
+      "avg_percent": 78,
       "math_stats": {
-        "total": 21,
-        "passed": 19,
-        "avg_percent": 80
+        "total": 16,
+        "passed": 14,
+        "avg_percent": 76,
+        "exit_count": 0
       },
       "russian_stats": {
-        "total": 20,
-        "passed": 15,
-        "avg_percent": 83
+        "total": 16,
+        "passed": 11,
+        "avg_percent": 80,
+        "exit_count": 0
       }
     },
     "2026-02-07": {
@@ -2737,16 +2695,18 @@
       "math_stats": {
         "total": 1,
         "passed": 0,
-        "avg_percent": 30
+        "avg_percent": 30,
+        "exit_count": 0
       },
       "russian_stats": {
         "total": 0,
         "passed": 0,
-        "avg_percent": 0
+        "avg_percent": 0,
+        "exit_count": 0
       }
     },
     "2026-02-09": {
-      "ta": 15,
+      "ta": 16,
       "pa": 8,
       "st": [
         "Бурнашов Иван",
@@ -2763,16 +2723,18 @@
         "Маргарян Артём",
         "Калинин Егор"
       ],
-      "avg_percent": 61,
+      "avg_percent": 55,
       "math_stats": {
-        "total": 14,
+        "total": 15,
         "passed": 8,
-        "avg_percent": 65
+        "avg_percent": 59,
+        "exit_count": 0
       },
       "russian_stats": {
         "total": 1,
         "passed": 0,
-        "avg_percent": 0
+        "avg_percent": 0,
+        "exit_count": 0
       }
     },
     "2026-02-10": {
@@ -2796,12 +2758,14 @@
       "math_stats": {
         "total": 12,
         "passed": 2,
-        "avg_percent": 28
+        "avg_percent": 28,
+        "exit_count": 0
       },
       "russian_stats": {
         "total": 0,
         "passed": 0,
-        "avg_percent": 0
+        "avg_percent": 0,
+        "exit_count": 0
       }
     },
     "2026-02-11": {
@@ -2830,12 +2794,14 @@
       "math_stats": {
         "total": 18,
         "passed": 10,
-        "avg_percent": 62
+        "avg_percent": 62,
+        "exit_count": 0
       },
       "russian_stats": {
         "total": 0,
         "passed": 0,
-        "avg_percent": 0
+        "avg_percent": 0,
+        "exit_count": 0
       }
     },
     "2026-02-12": {
@@ -3048,117 +3014,6 @@
       "prepositional": "полях"
     }
   ],
-  "calendar_stats": {
-    "2026-02-05": {
-      "total_students": 23,
-      "total_attempts": 25,
-      "passed_attempts": 21,
-      "success_rate": 84,
-      "math_attempts": 25,
-      "math_success_rate": 84,
-      "russian_attempts": 0,
-      "russian_success_rate": 0,
-      "top_students": [
-        "Балдаков Степан",
-        "Лазарев Никита",
-        "Маргарян Артём"
-      ],
-      "avg_percentage": 82
-    },
-    "2026-02-06": {
-      "total_students": 18,
-      "total_attempts": 41,
-      "passed_attempts": 34,
-      "success_rate": 83,
-      "math_attempts": 21,
-      "math_success_rate": 90,
-      "russian_attempts": 20,
-      "russian_success_rate": 75,
-      "top_students": [
-        "Лазарев Никита",
-        "Терпигорьева Алиса",
-        "Калинин Егор"
-      ],
-      "avg_percentage": 81
-    },
-    "2026-02-07": {
-      "total_students": 0,
-      "total_attempts": 0,
-      "passed_attempts": 0,
-      "success_rate": 0,
-      "math_attempts": 0,
-      "math_success_rate": 0,
-      "russian_attempts": 0,
-      "russian_success_rate": 0,
-      "top_students": [],
-      "avg_percentage": 0
-    },
-    "2026-02-09": {
-      "total_students": 13,
-      "total_attempts": 15,
-      "passed_attempts": 8,
-      "success_rate": 53,
-      "math_attempts": 14,
-      "math_success_rate": 57,
-      "russian_attempts": 1,
-      "russian_success_rate": 0,
-      "top_students": [
-        "Бурнашов Иван",
-        "Лазарев Никита",
-        "Абракомова Анастасия"
-      ],
-      "avg_percentage": 61
-    },
-    "2026-02-10": {
-      "total_students": 12,
-      "total_attempts": 12,
-      "passed_attempts": 2,
-      "success_rate": 17,
-      "math_attempts": 12,
-      "math_success_rate": 17,
-      "russian_attempts": 0,
-      "russian_success_rate": 0,
-      "top_students": [
-        "Боталова Кира",
-        "Терпигорьева Алиса",
-        "Валиуллин Владимир"
-      ],
-      "avg_percentage": 28
-    },
-    "2026-02-11": {
-      "total_students": 17,
-      "total_attempts": 18,
-      "passed_attempts": 10,
-      "success_rate": 56,
-      "math_attempts": 18,
-      "math_success_rate": 56,
-      "russian_attempts": 0,
-      "russian_success_rate": 0,
-      "top_students": [
-        "Терпигорьева Алиса",
-        "Абракомова Анастасия",
-        "Фукалова Арина"
-      ],
-      "avg_percentage": 62
-    },
-    "2026-02-12": {
-      "total_students": 8,
-      "total_attempts": 21,
-      "passed_attempts": 3,
-      "success_rate": 14,
-      "math_attempts": 15,
-      "math_success_rate": 20,
-      "russian_attempts": 6,
-      "russian_success_rate": 0,
-      "top_students": [
-        "Боталова Кира",
-        "Гудошникова Виктория",
-        "Фукалова Арина"
-      ],
-      "avg_percentage": 16,
-      "math_exit_count": 11,
-      "russian_exit_count": 3
-    }
-  },
+  "calendar_stats": {},
   "admin_password": "EcoSchool"
 }
