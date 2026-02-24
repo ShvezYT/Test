@@ -384,20 +384,11 @@
     {
       "n": "Бурнашов Иван",
       "math": {
-        "a": 17,
+        "a": 18,
         "b": 10,
         "l": "24.02.2026, 12:04:00",
         "p": false,
         "da": [
-          {
-            "d": "2026-02-12",
-            "c": 0,
-            "t": 10,
-            "p": false,
-            "tm": "23:12:41",
-            "percent": 0,
-            "exited": true
-          },
           {
             "d": "2026-02-12",
             "c": 0,
@@ -478,10 +469,19 @@
             "tm": "12:04:00",
             "percent": 0,
             "exited": false
+          },
+          {
+            "d": "2026-02-24",
+            "c": 0,
+            "t": 10,
+            "p": false,
+            "tm": "13:14:06",
+            "percent": 0,
+            "exited": true
           }
         ],
         "percent": 100,
-        "exit_count": 10
+        "exit_count": 11
       },
       "russian": {
         "a": 2,
@@ -1772,16 +1772,6 @@
   "c": [],
   "att": [
     {
-      "s": "Гудошникова Виктория",
-      "d": "06.02.2026, 18:20:32",
-      "c": 10,
-      "t": 10,
-      "p": true,
-      "day": "2026-02-06",
-      "type": "russian",
-      "percent": 100
-    },
-    {
       "s": "Харисов Роберт",
       "d": "06.02.2026, 18:27:16",
       "c": 10,
@@ -2805,6 +2795,17 @@
       "type": "russian",
       "percent": 0,
       "exited": true
+    },
+    {
+      "s": "Бурнашов Иван",
+      "d": "24.02.2026, 13:14:06",
+      "c": 0,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-24",
+      "type": "math",
+      "percent": 0,
+      "exited": true
     }
   ],
   "ds": {
@@ -3012,17 +3013,17 @@
       }
     },
     "2026-02-24": {
-      "ta": 5,
+      "ta": 6,
       "pa": 1,
       "st": [
         "Бурнашов Иван"
       ],
-      "avg_percent": 27,
+      "avg_percent": 22,
       "math_stats": {
-        "total": 3,
+        "total": 4,
         "passed": 1,
-        "avg_percent": 33,
-        "exit_count": 1
+        "avg_percent": 25,
+        "exit_count": 2
       },
       "russian_stats": {
         "total": 2,
@@ -3231,17 +3232,17 @@
     },
     "2026-02-24": {
       "total_students": 1,
-      "total_attempts": 5,
+      "total_attempts": 6,
       "passed_attempts": 1,
-      "success_rate": 20,
-      "math_attempts": 3,
-      "math_success_rate": 33,
-      "math_exit_count": 1,
+      "success_rate": 17,
+      "math_attempts": 4,
+      "math_success_rate": 25,
+      "math_exit_count": 2,
       "russian_attempts": 2,
       "russian_success_rate": 0,
       "russian_exit_count": 1,
       "top_students": [],
-      "avg_percentage": 27
+      "avg_percentage": 22
     }
   },
   "admin_password": "EcoSchool"
