@@ -625,9 +625,9 @@
         "percent": 100
       },
       "russian": {
-        "a": 1,
-        "b": 10,
-        "l": "06.02.2026, 13:53:01",
+        "a": 2,
+        "b": 13,
+        "l": "24.02.2026, 14:59:11",
         "p": true,
         "da": [
           {
@@ -637,6 +637,15 @@
             "p": true,
             "tm": "13:53:01",
             "percent": 100
+          },
+          {
+            "d": "2026-02-24",
+            "c": 13,
+            "t": 15,
+            "p": true,
+            "tm": "14:59:11",
+            "percent": 87,
+            "exited": false
           }
         ],
         "percent": 100
@@ -1800,16 +1809,6 @@
   "att": [
     {
       "s": "Ненастьева Василиса",
-      "d": "06.02.2026, 18:39:19",
-      "c": 8,
-      "t": 10,
-      "p": true,
-      "day": "2026-02-06",
-      "type": "math",
-      "percent": 80
-    },
-    {
-      "s": "Ненастьева Василиса",
       "d": "06.02.2026, 18:40:50",
       "c": 6,
       "t": 10,
@@ -2839,6 +2838,17 @@
       "type": "math",
       "percent": 100,
       "exited": false
+    },
+    {
+      "s": "Валиуллина Вероника",
+      "d": "24.02.2026, 14:59:11",
+      "c": 13,
+      "t": 15,
+      "p": true,
+      "day": "2026-02-24",
+      "type": "russian",
+      "percent": 87,
+      "exited": false
     }
   ],
   "ds": {
@@ -3046,15 +3056,15 @@
       }
     },
     "2026-02-24": {
-      "ta": 12,
-      "pa": 3,
+      "ta": 13,
+      "pa": 4,
       "st": [
         "Бурнашов Иван",
         "Фукалова Арина",
         "Абракомова Анастасия",
         "Валиуллина Вероника"
       ],
-      "avg_percent": 26,
+      "avg_percent": 31,
       "math_stats": {
         "total": 10,
         "passed": 3,
@@ -3062,9 +3072,9 @@
         "exit_count": 6
       },
       "russian_stats": {
-        "total": 2,
-        "passed": 0,
-        "avg_percent": 17,
+        "total": 3,
+        "passed": 1,
+        "avg_percent": 40,
         "exit_count": 1
       }
     }
@@ -3268,17 +3278,17 @@
     },
     "2026-02-24": {
       "total_students": 4,
-      "total_attempts": 12,
-      "passed_attempts": 3,
-      "success_rate": 25,
+      "total_attempts": 13,
+      "passed_attempts": 4,
+      "success_rate": 31,
       "math_attempts": 10,
       "math_success_rate": 30,
       "math_exit_count": 6,
-      "russian_attempts": 2,
-      "russian_success_rate": 0,
+      "russian_attempts": 3,
+      "russian_success_rate": 33,
       "russian_exit_count": 1,
       "top_students": [],
-      "avg_percentage": 26
+      "avg_percentage": 31
     }
   },
   "admin_password": "EcoSchool"
