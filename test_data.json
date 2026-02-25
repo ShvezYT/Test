@@ -1236,10 +1236,10 @@
     {
       "n": "Маргарян Артём",
       "math": {
-        "a": 6,
+        "a": 7,
         "b": 10,
-        "l": "25.02.2026, 18:35:21",
-        "p": false,
+        "l": "25.02.2026, 18:37:35",
+        "p": true,
         "da": [
           {
             "d": "2026-02-05",
@@ -1287,6 +1287,15 @@
             "p": false,
             "tm": "18:35:21",
             "percent": 40,
+            "exited": false
+          },
+          {
+            "d": "2026-02-25",
+            "c": 8,
+            "t": 10,
+            "p": true,
+            "tm": "18:37:35",
+            "percent": 80,
             "exited": false
           }
         ],
@@ -2001,16 +2010,6 @@
   ],
   "c": [],
   "att": [
-    {
-      "s": "Гудошникова Виктория",
-      "d": "10.02.2026, 13:49:54",
-      "c": 5,
-      "t": 10,
-      "p": false,
-      "day": "2026-02-10",
-      "type": "math",
-      "percent": 50
-    },
     {
       "s": "Боталова Кира",
       "d": "10.02.2026, 13:54:16",
@@ -3065,6 +3064,17 @@
       "type": "math",
       "percent": 90,
       "exited": false
+    },
+    {
+      "s": "Маргарян Артём",
+      "d": "25.02.2026, 18:37:35",
+      "c": 8,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-25",
+      "type": "math",
+      "percent": 80,
+      "exited": false
     }
   ],
   "ds": {
@@ -3298,8 +3308,8 @@
       }
     },
     "2026-02-25": {
-      "ta": 17,
-      "pa": 10,
+      "ta": 18,
+      "pa": 11,
       "st": [
         "Бурнашов Иван",
         "Харисов Роберт",
@@ -3312,9 +3322,9 @@
       ],
       "avg_percent": 68,
       "math_stats": {
-        "total": 11,
-        "passed": 7,
-        "avg_percent": 64,
+        "total": 12,
+        "passed": 8,
+        "avg_percent": 65,
         "exit_count": 0
       },
       "russian_stats": {
@@ -3538,11 +3548,11 @@
     },
     "2026-02-25": {
       "total_students": 8,
-      "total_attempts": 17,
-      "passed_attempts": 10,
-      "success_rate": 59,
-      "math_attempts": 11,
-      "math_success_rate": 64,
+      "total_attempts": 18,
+      "passed_attempts": 11,
+      "success_rate": 61,
+      "math_attempts": 12,
+      "math_success_rate": 67,
       "math_exit_count": 0,
       "russian_attempts": 6,
       "russian_success_rate": 50,
