@@ -763,9 +763,9 @@
         "percent": 70
       },
       "russian": {
-        "a": 2,
+        "a": 3,
         "b": 10,
-        "l": "12.02.2026, 18:23:19",
+        "l": "25.02.2026, 18:14:47",
         "p": false,
         "da": [
           {
@@ -783,6 +783,15 @@
             "p": false,
             "tm": "18:23:19",
             "percent": 60
+          },
+          {
+            "d": "2026-02-25",
+            "c": 9,
+            "t": 15,
+            "p": false,
+            "tm": "18:14:47",
+            "percent": 60,
+            "exited": false
           }
         ],
         "percent": 100
@@ -1927,16 +1936,6 @@
   "c": [],
   "att": [
     {
-      "s": "Боталова Кира",
-      "d": "09.02.2026, 18:29:12",
-      "c": 5,
-      "t": 10,
-      "p": false,
-      "day": "2026-02-09",
-      "type": "math",
-      "percent": 50
-    },
-    {
       "s": "Абракомова Анастасия",
       "d": "09.02.2026, 18:30:54",
       "c": 10,
@@ -2980,6 +2979,17 @@
       "type": "math",
       "percent": 20,
       "exited": false
+    },
+    {
+      "s": "Гудошникова Виктория",
+      "d": "25.02.2026, 18:14:47",
+      "c": 9,
+      "t": 15,
+      "p": false,
+      "day": "2026-02-25",
+      "type": "russian",
+      "percent": 60,
+      "exited": false
     }
   ],
   "ds": {
@@ -3213,7 +3223,7 @@
       }
     },
     "2026-02-25": {
-      "ta": 7,
+      "ta": 8,
       "pa": 4,
       "st": [
         "Бурнашов Иван",
@@ -3229,9 +3239,9 @@
         "exit_count": 0
       },
       "russian_stats": {
-        "total": 2,
+        "total": 3,
         "passed": 2,
-        "avg_percent": 84,
+        "avg_percent": 76,
         "exit_count": 0
       }
     }
@@ -3449,14 +3459,14 @@
     },
     "2026-02-25": {
       "total_students": 4,
-      "total_attempts": 7,
+      "total_attempts": 8,
       "passed_attempts": 4,
-      "success_rate": 57,
+      "success_rate": 50,
       "math_attempts": 5,
       "math_success_rate": 40,
       "math_exit_count": 0,
-      "russian_attempts": 2,
-      "russian_success_rate": 100,
+      "russian_attempts": 3,
+      "russian_success_rate": 67,
       "russian_exit_count": 0,
       "top_students": [],
       "avg_percentage": 57
