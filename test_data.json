@@ -14,10 +14,10 @@
     {
       "n": "Абракомова Анастасия",
       "math": {
-        "a": 7,
+        "a": 8,
         "b": 10,
-        "l": "11.02.2026, 13:40:21",
-        "p": true,
+        "l": "26.02.2026, 18:30:43",
+        "p": false,
         "da": [
           {
             "d": "2026-02-05",
@@ -76,6 +76,15 @@
             "tm": "14:47:02",
             "percent": 0,
             "exited": true
+          },
+          {
+            "d": "2026-02-26",
+            "c": 2,
+            "t": 10,
+            "p": false,
+            "tm": "18:30:43",
+            "percent": 20,
+            "exited": false
           }
         ],
         "percent": 100,
@@ -2263,17 +2272,6 @@
   "att": [
     {
       "s": "Бурнашов Иван",
-      "d": "12.02.2026, 23:01:20",
-      "c": 0,
-      "t": 10,
-      "p": false,
-      "day": "2026-02-12",
-      "type": "math",
-      "percent": 0,
-      "exited": true
-    },
-    {
-      "s": "Бурнашов Иван",
       "d": "12.02.2026, 23:07:43",
       "c": 0,
       "t": 10,
@@ -3360,6 +3358,17 @@
       "type": "math",
       "percent": 0,
       "exited": false
+    },
+    {
+      "s": "Абракомова Анастасия",
+      "d": "26.02.2026, 18:30:43",
+      "c": 2,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-26",
+      "type": "math",
+      "percent": 20,
+      "exited": false
     }
   ],
   "ds": {
@@ -3620,7 +3629,7 @@
       }
     },
     "2026-02-26": {
-      "ta": 26,
+      "ta": 27,
       "pa": 3,
       "st": [
         "Бурнашов Иван",
@@ -3631,11 +3640,12 @@
         "Любимов Семен",
         "Пермяков Дмитрий",
         "Елизарова Влада",
-        "Валиуллин Владимир"
+        "Валиуллин Владимир",
+        "Абракомова Анастасия"
       ],
       "avg_percent": 20,
       "math_stats": {
-        "total": 17,
+        "total": 18,
         "passed": 1,
         "avg_percent": 19,
         "exit_count": 2
@@ -3874,11 +3884,11 @@
       "avg_percentage": 54
     },
     "2026-02-26": {
-      "total_students": 9,
-      "total_attempts": 26,
+      "total_students": 10,
+      "total_attempts": 27,
       "passed_attempts": 3,
-      "success_rate": 12,
-      "math_attempts": 17,
+      "success_rate": 11,
+      "math_attempts": 18,
       "math_success_rate": 6,
       "math_exit_count": 2,
       "russian_attempts": 9,
