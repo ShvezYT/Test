@@ -912,10 +912,10 @@
         "percent": 70
       },
       "russian": {
-        "a": 3,
+        "a": 4,
         "b": 10,
-        "l": "25.02.2026, 18:14:47",
-        "p": false,
+        "l": "26.02.2026, 18:37:28",
+        "p": true,
         "da": [
           {
             "d": "2026-02-06",
@@ -940,6 +940,15 @@
             "p": false,
             "tm": "18:14:47",
             "percent": 60,
+            "exited": false
+          },
+          {
+            "d": "2026-02-26",
+            "c": 8,
+            "t": 10,
+            "p": true,
+            "tm": "18:37:28",
+            "percent": 80,
             "exited": false
           }
         ],
@@ -2290,17 +2299,6 @@
   "att": [
     {
       "s": "Бурнашов Иван",
-      "d": "12.02.2026, 23:32:09",
-      "c": 0,
-      "t": 10,
-      "p": false,
-      "day": "2026-02-12",
-      "type": "math",
-      "percent": 0,
-      "exited": true
-    },
-    {
-      "s": "Бурнашов Иван",
       "d": "12.02.2026, 23:32:27",
       "c": 0,
       "t": 10,
@@ -3387,6 +3385,17 @@
       "type": "math",
       "percent": 0,
       "exited": false
+    },
+    {
+      "s": "Гудошникова Виктория",
+      "d": "26.02.2026, 18:37:28",
+      "c": 8,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-26",
+      "type": "russian",
+      "percent": 80,
+      "exited": false
     }
   ],
   "ds": {
@@ -3647,8 +3656,8 @@
       }
     },
     "2026-02-26": {
-      "ta": 29,
-      "pa": 3,
+      "ta": 30,
+      "pa": 4,
       "st": [
         "Бурнашов Иван",
         "Маргарян Артём",
@@ -3663,7 +3672,7 @@
         "Гудошникова Виктория",
         "Абросимова Кира"
       ],
-      "avg_percent": 21,
+      "avg_percent": 23,
       "math_stats": {
         "total": 20,
         "passed": 1,
@@ -3671,9 +3680,9 @@
         "exit_count": 2
       },
       "russian_stats": {
-        "total": 9,
-        "passed": 2,
-        "avg_percent": 23,
+        "total": 10,
+        "passed": 3,
+        "avg_percent": 29,
         "exit_count": 1
       }
     }
@@ -3905,17 +3914,17 @@
     },
     "2026-02-26": {
       "total_students": 12,
-      "total_attempts": 29,
-      "passed_attempts": 3,
-      "success_rate": 10,
+      "total_attempts": 30,
+      "passed_attempts": 4,
+      "success_rate": 13,
       "math_attempts": 20,
       "math_success_rate": 5,
       "math_exit_count": 2,
-      "russian_attempts": 9,
-      "russian_success_rate": 22,
+      "russian_attempts": 10,
+      "russian_success_rate": 30,
       "russian_exit_count": 1,
       "top_students": [],
-      "avg_percentage": 21
+      "avg_percentage": 23
     }
   },
   "admin_password": "EcoSchool"
