@@ -1755,9 +1755,9 @@
     {
       "n": "Пермяков Дмитрий",
       "math": {
-        "a": 3,
+        "a": 4,
         "b": 4,
-        "l": "10.02.2026, 13:59:47",
+        "l": "26.02.2026, 14:51:27",
         "p": false,
         "da": [
           {
@@ -1782,6 +1782,15 @@
             "p": false,
             "tm": "13:59:47",
             "percent": 0
+          },
+          {
+            "d": "2026-02-26",
+            "c": 0,
+            "t": 10,
+            "p": false,
+            "tm": "14:51:27",
+            "percent": 0,
+            "exited": false
           }
         ],
         "percent": 30
@@ -2217,17 +2226,6 @@
     "Ненастьева Василиса"
   ],
   "att": [
-    {
-      "s": "Серебрякова Милана",
-      "d": "12.02.2026, 22:13:54",
-      "c": 0,
-      "t": 10,
-      "p": false,
-      "day": "2026-02-12",
-      "type": "math",
-      "percent": 0,
-      "exited": true
-    },
     {
       "s": "Серебрякова Милана",
       "d": "12.02.2026, 22:14:22",
@@ -3316,6 +3314,17 @@
       "type": "russian",
       "percent": 0,
       "exited": false
+    },
+    {
+      "s": "Пермяков Дмитрий",
+      "d": "26.02.2026, 14:51:27",
+      "c": 0,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-26",
+      "type": "math",
+      "percent": 0,
+      "exited": false
     }
   ],
   "ds": {
@@ -3576,7 +3585,7 @@
       }
     },
     "2026-02-26": {
-      "ta": 21,
+      "ta": 22,
       "pa": 3,
       "st": [
         "Бурнашов Иван",
@@ -3584,13 +3593,14 @@
         "Валиуллина Вероника",
         "Новиков Павел",
         "Калинин Егор",
-        "Любимов Семен"
+        "Любимов Семен",
+        "Пермяков Дмитрий"
       ],
-      "avg_percent": 23,
+      "avg_percent": 22,
       "math_stats": {
-        "total": 14,
+        "total": 15,
         "passed": 1,
-        "avg_percent": 22,
+        "avg_percent": 21,
         "exit_count": 2
       },
       "russian_stats": {
@@ -3827,18 +3837,18 @@
       "avg_percentage": 54
     },
     "2026-02-26": {
-      "total_students": 6,
-      "total_attempts": 21,
+      "total_students": 7,
+      "total_attempts": 22,
       "passed_attempts": 3,
       "success_rate": 14,
-      "math_attempts": 14,
+      "math_attempts": 15,
       "math_success_rate": 7,
       "math_exit_count": 2,
       "russian_attempts": 7,
       "russian_success_rate": 29,
       "russian_exit_count": 1,
       "top_students": [],
-      "avg_percentage": 23
+      "avg_percentage": 22
     }
   },
   "admin_password": "EcoSchool"
