@@ -829,10 +829,10 @@
     {
       "n": "Власова Мария",
       "math": {
-        "a": 2,
-        "b": 7,
-        "l": "10.02.2026, 14:59:41",
-        "p": false,
+        "a": 3,
+        "b": 8,
+        "l": "27.02.2026, 10:29:01",
+        "p": true,
         "da": [
           {
             "d": "2026-02-05",
@@ -848,9 +848,18 @@
             "p": false,
             "tm": "14:59:41",
             "percent": 40
+          },
+          {
+            "d": "2026-02-27",
+            "c": 8,
+            "t": 10,
+            "p": true,
+            "tm": "10:29:01",
+            "percent": 80,
+            "exited": false
           }
         ],
-        "percent": 40
+        "percent": 80
       },
       "russian": {
         "a": 0,
@@ -2383,17 +2392,6 @@
   ],
   "att": [
     {
-      "s": "Елизарова Влада",
-      "d": "13.02.2026, 18:19:55",
-      "c": 0,
-      "t": 3,
-      "p": false,
-      "day": "2026-02-13",
-      "type": "russian",
-      "percent": 0,
-      "exited": false
-    },
-    {
       "s": "Боталова Кира",
       "d": "13.02.2026, 18:24:24",
       "c": 10,
@@ -3481,6 +3479,17 @@
       "type": "math",
       "percent": 0,
       "exited": false
+    },
+    {
+      "s": "Власова Мария",
+      "d": "27.02.2026, 10:29:01",
+      "c": 8,
+      "t": 10,
+      "p": true,
+      "day": "2026-02-27",
+      "type": "math",
+      "percent": 80,
+      "exited": false
     }
   ],
   "ds": {
@@ -3774,6 +3783,26 @@
         "avg_percent": 43,
         "exit_count": 1
       }
+    },
+    "2026-02-27": {
+      "ta": 1,
+      "pa": 1,
+      "st": [
+        "Власова Мария"
+      ],
+      "avg_percent": 80,
+      "math_stats": {
+        "total": 1,
+        "passed": 1,
+        "avg_percent": 80,
+        "exit_count": 0
+      },
+      "russian_stats": {
+        "total": 0,
+        "passed": 0,
+        "avg_percent": 0,
+        "exit_count": 0
+      }
     }
   },
   "russian_words": [
@@ -4014,6 +4043,20 @@
       "russian_exit_count": 1,
       "top_students": [],
       "avg_percentage": 31
+    },
+    "2026-02-27": {
+      "total_students": 1,
+      "total_attempts": 1,
+      "passed_attempts": 1,
+      "success_rate": 100,
+      "math_attempts": 1,
+      "math_success_rate": 100,
+      "math_exit_count": 0,
+      "russian_attempts": 0,
+      "russian_success_rate": 0,
+      "russian_exit_count": 0,
+      "top_students": [],
+      "avg_percentage": 80
     }
   },
   "admin_password": "EcoSchool"
