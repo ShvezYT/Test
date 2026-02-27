@@ -278,8 +278,9 @@
         "percent": 0
       },
       "password": "секрет340",
-      "lives": 3,
-      "ip": ""
+      "lives": 2,
+      "ip": "",
+      "math_attempts": 1
     },
     {
       "n": "Балдаков Степан",
