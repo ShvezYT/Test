@@ -714,9 +714,9 @@
     {
       "n": "Валиуллина Вероника",
       "math": {
-        "a": 7,
+        "a": 8,
         "b": 10,
-        "l": "26.02.2026, 13:55:56",
+        "l": "27.02.2026, 13:51:09",
         "p": false,
         "da": [
           {
@@ -775,6 +775,15 @@
             "p": false,
             "tm": "13:55:56",
             "percent": 50,
+            "exited": false
+          },
+          {
+            "d": "2026-02-27",
+            "c": 6,
+            "t": 10,
+            "p": false,
+            "tm": "13:51:09",
+            "percent": 60,
             "exited": false
           }
         ],
@@ -2406,17 +2415,6 @@
   "att": [
     {
       "s": "Боталова Кира",
-      "d": "13.02.2026, 18:30:46",
-      "c": 8,
-      "t": 10,
-      "p": true,
-      "day": "2026-02-13",
-      "type": "math",
-      "percent": 80,
-      "exited": false
-    },
-    {
-      "s": "Боталова Кира",
       "d": "13.02.2026, 18:32:10",
       "c": 0,
       "t": 3,
@@ -3503,6 +3501,17 @@
       "type": "russian",
       "percent": 50,
       "exited": false
+    },
+    {
+      "s": "Валиуллина Вероника",
+      "d": "27.02.2026, 13:51:09",
+      "c": 6,
+      "t": 10,
+      "p": false,
+      "day": "2026-02-27",
+      "type": "math",
+      "percent": 60,
+      "exited": false
     }
   ],
   "ds": {
@@ -3798,16 +3807,17 @@
       }
     },
     "2026-02-27": {
-      "ta": 2,
+      "ta": 3,
       "pa": 1,
       "st": [
-        "Власова Мария"
+        "Власова Мария",
+        "Валиуллина Вероника"
       ],
-      "avg_percent": 65,
+      "avg_percent": 63,
       "math_stats": {
-        "total": 1,
+        "total": 2,
         "passed": 1,
-        "avg_percent": 80,
+        "avg_percent": 70,
         "exit_count": 0
       },
       "russian_stats": {
@@ -4058,18 +4068,18 @@
       "avg_percentage": 31
     },
     "2026-02-27": {
-      "total_students": 1,
-      "total_attempts": 2,
+      "total_students": 2,
+      "total_attempts": 3,
       "passed_attempts": 1,
-      "success_rate": 50,
-      "math_attempts": 1,
-      "math_success_rate": 100,
+      "success_rate": 33,
+      "math_attempts": 2,
+      "math_success_rate": 50,
       "math_exit_count": 0,
       "russian_attempts": 1,
       "russian_success_rate": 0,
       "russian_exit_count": 0,
       "top_students": [],
-      "avg_percentage": 65
+      "avg_percentage": 63
     }
   },
   "admin_password": "EcoSchool"
