@@ -4369,5 +4369,6 @@
       "avg_percentage": 50
     }
   },
-  "admin_password": "EcoSchool"
+  "admin_password": "EcoSchool",
+  "tech_works": true
 }
