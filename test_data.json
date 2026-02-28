@@ -704,10 +704,10 @@
         "exit_count": 3
       },
       "password": "номер108",
-      "lives": 1,
+      "lives": 0,
       "ip": "89.148.234.227",
       "math_attempts": 3,
-      "russian_attempts": 2
+      "russian_attempts": 3
     },
     {
       "n": "Валиуллин Владимир",
