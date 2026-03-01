@@ -3,11 +3,13 @@
   "s": {
     "math": {
       "q": 10,
-      "t": 20
+      "t": 20,
+      "type": "multiplication"
     },
     "russian": {
       "q": 10,
-      "t": 20
+      "t": 20,
+      "type": "cases"
     }
   },
   "st": [
