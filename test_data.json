@@ -4,12 +4,12 @@
     "math": {
       "q": 10,
       "t": 20,
-      "type": "division"
+      "type": "none"
     },
     "russian": {
       "q": 10,
       "t": 20,
-      "type": "cases"
+      "type": "none"
     }
   },
   "st": [
