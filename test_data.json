@@ -2670,7 +2670,7 @@
         "percent": 90
       },
       "password": "код159",
-      "lives": 0,
+      "lives": 3,
       "ip": "89.253.4.224",
       "russian_attempts": 2,
       "math_attempts": 1
