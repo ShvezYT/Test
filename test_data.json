@@ -2758,9 +2758,9 @@
         "percent": 100
       },
       "password": "код263",
-      "lives": 2,
+      "lives": 1,
       "ip": "",
-      "math_attempts": 1
+      "math_attempts": 2
     }
   ],
   "c": [
