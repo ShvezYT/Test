@@ -536,8 +536,9 @@
         "percent": 100
       },
       "password": "меню471",
-      "lives": 3,
-      "ip": ""
+      "lives": 2,
+      "ip": "",
+      "math_attempts": 1
     },
     {
       "n": "Бурнашов Иван",
