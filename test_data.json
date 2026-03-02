@@ -2055,9 +2055,10 @@
         "percent": 90
       },
       "password": "меню124",
-      "lives": 2,
+      "lives": 1,
       "ip": "91.78.193.226",
-      "math_attempts": 1
+      "math_attempts": 1,
+      "russian_attempts": 1
     },
     {
       "n": "Новиков Павел",
