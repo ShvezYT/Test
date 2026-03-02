@@ -4455,7 +4455,7 @@
     }
   },
   "admin_password": "EcoSchool",
-  "tech_works": true,
+  "tech_works": false,
   "custom_tests": [
     {
       "id": "1772426291783",
