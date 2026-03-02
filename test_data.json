@@ -1655,7 +1655,7 @@
         "exit_count": 2
       },
       "password": "пароль193",
-      "lives": 0,
+      "lives": 3,
       "ip": "",
       "math_attempts": 2,
       "russian_attempts": 1
@@ -1771,7 +1771,7 @@
         "exit_count": 1
       },
       "password": "меню235",
-      "lives": 2,
+      "lives": 3,
       "ip": "",
       "russian_attempts": 1
     },
@@ -2684,7 +2684,7 @@
         "percent": 90
       },
       "password": "код159",
-      "lives": 0,
+      "lives": 3,
       "ip": "89.253.4.224",
       "russian_attempts": 3,
       "math_attempts": 3
