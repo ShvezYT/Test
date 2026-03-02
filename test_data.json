@@ -810,7 +810,7 @@
         "percent": 90
       },
       "password": "телефон315",
-      "lives": 2,
+      "lives": 3,
       "ip": "",
       "math_attempts": 1
     },
@@ -1292,7 +1292,7 @@
         "percent": 0
       },
       "password": "секрет801",
-      "lives": 2,
+      "lives": 3,
       "ip": "",
       "russian_attempts": 1
     },
