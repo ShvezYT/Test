@@ -1646,9 +1646,10 @@
         "exit_count": 2
       },
       "password": "пароль193",
-      "lives": 1,
+      "lives": 0,
       "ip": "",
-      "math_attempts": 2
+      "math_attempts": 2,
+      "russian_attempts": 1
     },
     {
       "n": "Лицкевич Ярослав",
