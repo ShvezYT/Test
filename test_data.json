@@ -2643,8 +2643,9 @@
         "percent": 90
       },
       "password": "код159",
-      "lives": 3,
-      "ip": ""
+      "lives": 2,
+      "ip": "",
+      "russian_attempts": 1
     },
     {
       "n": "Чистякова Виктория",
