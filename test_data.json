@@ -1039,9 +1039,10 @@
         "percent": 50
       },
       "password": "номер674",
-      "lives": 3,
+      "lives": 2,
       "ip": "",
-      "math_attempts": 1
+      "math_attempts": 1,
+      "russian_attempts": 1
     },
     {
       "n": "Гудошникова Виктория",
