@@ -537,7 +537,7 @@
         "percent": 100
       },
       "password": "меню471",
-      "lives": 0,
+      "lives": 3,
       "ip": "188.66.32.80",
       "math_attempts": 6
     },
@@ -1039,7 +1039,7 @@
         "percent": 50
       },
       "password": "номер674",
-      "lives": 2,
+      "lives": 3,
       "ip": "91.203.238.228",
       "math_attempts": 1,
       "russian_attempts": 4
