@@ -1,5 +1,5 @@
 {
-  "d": "2026-03-02",
+  "d": "2026-03-03",
   "s": {
     "math": {
       "q": 10,
@@ -735,7 +735,7 @@
         "exit_count": 3
       },
       "password": "номер108",
-      "lives": 997,
+      "lives": 3,
       "ip": "89.148.234.227",
       "math_attempts": 16,
       "russian_attempts": 14
@@ -2073,7 +2073,7 @@
         "percent": 90
       },
       "password": "меню124",
-      "lives": 0,
+      "lives": 3,
       "ip": "89.148.201.79",
       "math_attempts": 2,
       "russian_attempts": 1
