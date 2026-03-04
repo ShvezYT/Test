@@ -4832,26 +4832,5 @@
   },
   "admin_password": "EcoSchool",
   "tech_works": false,
-  "custom_tests": [
-    {
-      "id": "1772426291783",
-      "name": "Test",
-      "subject": "math",
-      "time": 15,
-      "questions": [
-        {
-          "type": "choice",
-          "text": "test",
-          "options": [
-            "Вариант 1",
-            "Вариант 2",
-            "Вариант 3"
-          ],
-          "correct": [
-            2
-          ]
-        }
-      ]
-    }
-  ]
+  "custom_tests": []
 }
