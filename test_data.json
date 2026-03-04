@@ -735,7 +735,7 @@
         "exit_count": 3
       },
       "password": "номер108",
-      "lives": 1e+64,
+      "lives": 3,
       "ip": "37.203.37.86",
       "math_attempts": 23,
       "russian_attempts": 15
