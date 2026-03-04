@@ -735,9 +735,9 @@
         "exit_count": 3
       },
       "password": "номер108",
-      "lives": 1,
+      "lives": 0,
       "ip": "192.142.24.18",
-      "math_attempts": 25,
+      "math_attempts": 26,
       "russian_attempts": 15
     },
     {
