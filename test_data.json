@@ -147,8 +147,9 @@
         "exit_count": 1
       },
       "password": "меню728",
-      "lives": 3,
-      "ip": ""
+      "lives": 2,
+      "ip": "",
+      "math_attempts": 1
     },
     {
       "n": "Абросимова Кира",
