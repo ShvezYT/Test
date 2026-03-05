@@ -4532,5 +4532,12 @@
   },
   "admin_password": "EcoSchool",
   "tech_works": false,
-  "custom_tests": []
+  "custom_tests": [],
+  "polls": [
+    {
+      "studentName": "Бурнашов Иван",
+      "vote": "site",
+      "timestamp": "2026-03-05T07:39:24.743Z"
+    }
+  ]
 }
