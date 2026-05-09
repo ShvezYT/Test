@@ -222,5 +222,18 @@
     ],
     "businessName": "",
     "premiumUntil": 0
+  },
+  {
+    "username": "Tep",
+    "password": "qwerty",
+    "balance": 0,
+    "transactions": [],
+    "isAdmin": false,
+    "blocked": false,
+    "businessCreated": false,
+    "businessBalance": 0,
+    "businessTransactions": [],
+    "businessName": "",
+    "premiumUntil": null
   }
 ]
