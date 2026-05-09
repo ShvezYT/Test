@@ -2,8 +2,13 @@
   {
     "username": "admin",
     "password": "Admin123!",
-    "balance": 44479.75,
+    "balance": 84479.75,
     "transactions": [
+      {
+        "date": "2026-05-09T11:38:28.616Z",
+        "desc": "Перевод от EdinorogYT4",
+        "amount": 40000
+      },
       {
         "date": "2026-05-09T11:36:44.773Z",
         "desc": "Перевод пользователю EdinorogYT4",
@@ -130,8 +135,13 @@
   {
     "username": "EdinorogYT4",
     "password": "676767",
-    "balance": 50000,
+    "balance": 10000,
     "transactions": [
+      {
+        "date": "2026-05-09T11:38:28.616Z",
+        "desc": "Перевод пользователю admin",
+        "amount": -40000
+      },
       {
         "date": "2026-05-09T11:36:44.773Z",
         "desc": "Перевод от admin",
