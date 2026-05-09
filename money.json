@@ -45,13 +45,19 @@
     "businessCreated": false,
     "businessBalance": 0,
     "businessTransactions": [],
-    "businessName": ""
+    "businessName": "",
+    "premiumUntil": 0
   },
   {
     "username": "Иван Бурнашов",
     "password": "31052015Ivan",
-    "balance": 9572.25,
+    "balance": 9273.25,
     "transactions": [
+      {
+        "date": "2026-05-09T12:12:30.235Z",
+        "desc": "Покупка премиума на 30 мин",
+        "amount": -299
+      },
       {
         "date": "2026-05-09T12:05:43.837Z",
         "desc": "Перевод Ксю (сумма 750 + комиссия 75)",
@@ -89,7 +95,8 @@
         "amount": 123
       }
     ],
-    "businessName": ""
+    "businessName": "",
+    "premiumUntil": 1778330550235
   },
   {
     "username": "Ксю",
@@ -148,7 +155,8 @@
         "amount": 10000
       }
     ],
-    "businessName": ""
+    "businessName": "",
+    "premiumUntil": 0
   },
   {
     "username": "EdinorogYT4",
@@ -177,6 +185,7 @@
         "amount": 900
       }
     ],
-    "businessName": ""
+    "businessName": "",
+    "premiumUntil": 0
   }
 ]
