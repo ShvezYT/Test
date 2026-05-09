@@ -1,15 +1,5 @@
 [
   {
-    "airline": "S7 Airlines",
-    "flight": "S7256",
-    "city": "ÐÐ¾Ð²Ð¾ÑÐ¸Ð±Ð¸ÑÑÐº",
-    "scheduledTime": "12:15",
-    "actualTime": "12:45",
-    "statusType": "ÐÐ°Ð´ÐµÑÐ¶Ð°Ð½",
-    "statusDetail": "ÐÐ°Ð´ÐµÑÐ¶ÐºÐ° 30 Ð¼Ð¸Ð½",
-    "type": 7
-  },
-  {
     "airline": "",
     "flight": "",
     "city": "",
