@@ -1,19 +1,52 @@
 [
   {
-    "airline": "S7 Airlines",
     "flight": "0001",
     "direction": "departure",
-    "city": "PEE",
-    "scheduledTime": "Check-in desk ended 9PM",
-    "actualTime": "-",
     "statusType": "Задержан",
-    "statusDetail": "45 min",
     "type": 7,
-    "aircraft": "Airbus",
-    "checkInDesk": "-",
-    "gate": "-",
-    "baggageBelt": "-",
-    "checkInStart": "8PM",
-    "boardingStart": "-"
+    "airline": {
+      "ru": "S7 Airlines",
+      "en": "S7 Airlines"
+    },
+    "city": {
+      "ru": "PEE",
+      "en": "PEE"
+    },
+    "scheduledTime": {
+      "ru": "Регистрация окончена в 9:00",
+      "en": "Check-in desk ended 9PM"
+    },
+    "actualTime": {
+      "ru": "Задержан до 11:45",
+      "en": "Delayed for 11:45 PM"
+    },
+    "statusDetail": {
+      "ru": "45 минут",
+      "en": "45 min"
+    },
+    "aircraft": {
+      "ru": "Airbus",
+      "en": "Airbus"
+    },
+    "checkInDesk": {
+      "ru": "-",
+      "en": "-"
+    },
+    "gate": {
+      "ru": "-",
+      "en": "-"
+    },
+    "baggageBelt": {
+      "ru": "-",
+      "en": "-"
+    },
+    "checkInStart": {
+      "ru": "8:00",
+      "en": "8PM"
+    },
+    "boardingStart": {
+      "ru": "-",
+      "en": "-"
+    }
   }
 ]
