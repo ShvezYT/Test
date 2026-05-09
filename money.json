@@ -162,8 +162,13 @@
     "isAdmin": false,
     "blocked": false,
     "businessCreated": true,
-    "businessBalance": 14500,
+    "businessBalance": 14950,
     "businessTransactions": [
+      {
+        "date": "2026-05-09T13:01:25.960Z",
+        "desc": "Оплата от EdinorogYT4 по QR (комиссия 50₽)",
+        "amount": 450
+      },
       {
         "date": "2026-05-09T12:55:13.531Z",
         "desc": "Оплата от Иван Бурнашов по QR (комиссия 500₽)",
@@ -181,8 +186,13 @@
   {
     "username": "EdinorogYT4",
     "password": "676767",
-    "balance": 10000,
+    "balance": 9500,
     "transactions": [
+      {
+        "date": "2026-05-09T13:01:25.960Z",
+        "desc": "Оплата бизнесу \"\" (комиссия 50₽)",
+        "amount": -500
+      },
       {
         "date": "2026-05-09T11:38:28.616Z",
         "desc": "Перевод пользователю admin",
