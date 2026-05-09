@@ -98,5 +98,55 @@
       "ru": "",
       "en": ""
     }
+  },
+  {
+    "flight": "",
+    "direction": "departure",
+    "statusType": "По расписанию",
+    "type": 0,
+    "airline": {
+      "ru": "",
+      "en": ""
+    },
+    "city": {
+      "ru": "",
+      "en": ""
+    },
+    "scheduledTime": {
+      "ru": "",
+      "en": ""
+    },
+    "actualTime": {
+      "ru": "",
+      "en": ""
+    },
+    "statusDetail": {
+      "ru": "",
+      "en": ""
+    },
+    "aircraft": {
+      "ru": "",
+      "en": ""
+    },
+    "checkInDesk": {
+      "ru": "",
+      "en": ""
+    },
+    "gate": {
+      "ru": "",
+      "en": ""
+    },
+    "baggageBelt": {
+      "ru": "",
+      "en": ""
+    },
+    "checkInStart": {
+      "ru": "",
+      "en": ""
+    },
+    "boardingStart": {
+      "ru": "",
+      "en": ""
+    }
   }
 ]
