@@ -3,7 +3,7 @@
     "flight": "0001",
     "direction": "departure",
     "statusType": "Задержан",
-    "type": 7,
+    "type": 2,
     "airline": {
       "ru": "S7 Airlines",
       "en": "S7 Airlines"
@@ -21,8 +21,8 @@
       "en": "Delayed for 11:45 PM"
     },
     "statusDetail": {
-      "ru": "50 минут",
-      "en": "50 min"
+      "ru": "45 минут",
+      "en": "45 min"
     },
     "aircraft": {
       "ru": "Airbus",
