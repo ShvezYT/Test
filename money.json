@@ -105,16 +105,10 @@
     "username": "EdinorogYT4",
     "password": "676767",
     "balance": 0,
-    "transactions": [
-            {
-        "date": "2026-05-09T10:48:58.541Z",
-        "desc": "Перевод от admin",
-        "amount": 25000
-      }
-    ],
+    "transactions": [],
     "isAdmin": false,
     "blocked": false,
-    "businessCreated": false,
+    "businessCreated": true,
     "businessBalance": 0,
     "businessTransactions": []
   }
