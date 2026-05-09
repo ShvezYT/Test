@@ -51,8 +51,13 @@
   {
     "username": "Иван Бурнашов",
     "password": "31052015Ivan",
-    "balance": 10397.25,
+    "balance": 10514.25,
     "transactions": [
+      {
+        "date": "2026-05-09T12:39:16.493Z",
+        "desc": "Снятие с бизнеса (получено 117₽)",
+        "amount": 117
+      },
       {
         "date": "2026-05-09T11:34:26.554Z",
         "desc": "Оплата бизнеса Ксю (QR)",
@@ -77,8 +82,13 @@
     "isAdmin": false,
     "blocked": false,
     "businessCreated": true,
-    "businessBalance": 123,
+    "businessBalance": 0,
     "businessTransactions": [
+      {
+        "date": "2026-05-09T12:39:16.493Z",
+        "desc": "Снятие на личный счёт (комиссия 5%: 6₽)",
+        "amount": -123
+      },
       {
         "date": "2026-05-09T10:56:07.693Z",
         "desc": "Оплата от Ксения Прокофьева по QR",
