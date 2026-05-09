@@ -1,22 +1,12 @@
 [
   {
-    "airline": "Аэрофлот",
-    "flight": "SU1234",
-    "city": "Москва",
-    "scheduledTime": "10:30",
-    "actualTime": "10:30",
-    "statusType": "По расписанию",
-    "statusDetail": "Регистрация открыта",
-    "type": 0
-  },
-  {
     "airline": "S7 Airlines",
     "flight": "S7256",
-    "city": "Новосибирск",
+    "city": "ÐÐ¾Ð²Ð¾ÑÐ¸Ð±Ð¸ÑÑÐº",
     "scheduledTime": "12:15",
     "actualTime": "12:45",
-    "statusType": "Задержан",
-    "statusDetail": "Задержка 30 мин",
+    "statusType": "ÐÐ°Ð´ÐµÑÐ¶Ð°Ð½",
+    "statusDetail": "ÐÐ°Ð´ÐµÑÐ¶ÐºÐ° 30 Ð¼Ð¸Ð½",
     "type": 7
   },
   {
@@ -25,7 +15,7 @@
     "city": "",
     "scheduledTime": "",
     "actualTime": "",
-    "statusType": "По расписанию",
+    "statusType": "ÐÐ¾ ÑÐ°ÑÐ¿Ð¸ÑÐ°Ð½Ð¸Ñ",
     "statusDetail": "",
     "type": 0
   }
