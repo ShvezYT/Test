@@ -46,28 +46,13 @@
     "businessBalance": 0,
     "businessTransactions": [],
     "businessName": "",
-    "premiumUntil": 0
+    "premiumUntil": null
   },
   {
     "username": "Иван Бурнашов",
     "password": "31052015Ivan",
-    "balance": 9390.25,
+    "balance": 10397.25,
     "transactions": [
-      {
-        "date": "2026-05-09T12:13:13.379Z",
-        "desc": "Снятие с бизнеса (получено 117₽)",
-        "amount": 117
-      },
-      {
-        "date": "2026-05-09T12:12:30.235Z",
-        "desc": "Покупка премиума на 30 мин",
-        "amount": -299
-      },
-      {
-        "date": "2026-05-09T12:05:43.837Z",
-        "desc": "Перевод Ксю (сумма 750 + комиссия 75)",
-        "amount": -825
-      },
       {
         "date": "2026-05-09T11:34:26.554Z",
         "desc": "Оплата бизнеса Ксю (QR)",
@@ -92,37 +77,22 @@
     "isAdmin": false,
     "blocked": false,
     "businessCreated": true,
-    "businessBalance": 0,
+    "businessBalance": 123,
     "businessTransactions": [
-      {
-        "date": "2026-05-09T12:13:13.379Z",
-        "desc": "Снятие на личный счёт (комиссия 5%: 6₽)",
-        "amount": -123
-      },
       {
         "date": "2026-05-09T10:56:07.693Z",
         "desc": "Оплата от Ксения Прокофьева по QR",
         "amount": 123
       }
     ],
-    "businessName": "",
-    "premiumUntil": 1778330550235
+    "businessName": "ПОДОЙДИТЕ В БАНК!",
+    "premiumUntil": null
   },
   {
     "username": "Ксю",
     "password": "3579",
-    "balance": 9750,
+    "balance": 10000,
     "transactions": [
-      {
-        "date": "2026-05-09T12:05:43.837Z",
-        "desc": "Перевод от Иван Бурнашов (получено 750)",
-        "amount": 750
-      },
-      {
-        "date": "2026-05-09T11:59:52.854Z",
-        "desc": "Оплата бизнесу \"undefined\" (комиссия 100₽)",
-        "amount": -1000
-      },
       {
         "date": "2026-05-09T11:20:12.868Z",
         "desc": "Перевод пользователю admin",
@@ -165,8 +135,8 @@
         "amount": 10000
       }
     ],
-    "businessName": "",
-    "premiumUntil": 0
+    "businessName": "ПОДОЙДИТЕ В БАНК!",
+    "premiumUntil": null
   },
   {
     "username": "EdinorogYT4",
@@ -187,15 +157,9 @@
     "isAdmin": false,
     "blocked": false,
     "businessCreated": true,
-    "businessBalance": 900,
-    "businessTransactions": [
-      {
-        "date": "2026-05-09T11:59:52.854Z",
-        "desc": "Оплата от Ксю по QR (комиссия 100₽)",
-        "amount": 900
-      }
-    ],
-    "businessName": "",
-    "premiumUntil": 0
+    "businessBalance": 0,
+    "businessTransactions": [],
+    "businessName": "ПОДОЙДИТЕ В БАНК!",
+    "premiumUntil": null
   }
 ]
