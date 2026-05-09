@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "flight": "0001",
+    "direction": "departure",
+    "statusType": "Задержан",
+    "type": 1,
+    "airline": {
+      "ru": "S7 Airlines",
+      "en": "S7 Airlines"
+    },
+    "city": {
+      "ru": "Пермь (PEE)",
+      "en": "Perm (PEE)"
+    },
+    "scheduledTime": {
+      "ru": "Вылет в 11:20",
+      "en": "Departure at 11:20 AM"
+    },
+    "actualTime": {
+      "ru": "Задержан до 11:45",
+      "en": "Delayed for 11:45 PM"
+    },
+    "statusDetail": {
+      "ru": "45 минут",
+      "en": "45 min"
+    },
+    "aircraft": {
+      "ru": "Airbus",
+      "en": "Airbus"
+    },
+    "checkInDesk": {
+      "ru": "-",
+      "en": "-"
+    },
+    "gate": {
+      "ru": "-",
+      "en": "-"
+    },
+    "baggageBelt": {
+      "ru": "-",
+      "en": "-"
+    },
+    "checkInStart": {
+      "ru": "8:00",
+      "en": "8AM"
+    },
+    "boardingStart": {
+      "ru": "-",
+      "en": "-"
+    }
+  }
+]
