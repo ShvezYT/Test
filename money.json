@@ -12,5 +12,13 @@
     ],
     "isAdmin": true,
     "blocked": false
+  },
+  {
+    "username": "Иван Бурнашов",
+    "password": "31052015Ivan",
+    "balance": 0,
+    "transactions": [],
+    "isAdmin": false,
+    "blocked": false
   }
 ]
