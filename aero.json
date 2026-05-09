@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "airline": "",
+    "flight": "",
+    "city": "",
+    "scheduledTime": "",
+    "actualTime": "",
+    "statusType": "По расписанию",
+    "statusDetail": "Выход изменён на 5",
+    "type": 0
+  }
+]
