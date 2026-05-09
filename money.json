@@ -2,8 +2,13 @@
   {
     "username": "admin",
     "password": "Admin123!",
-    "balance": 80000,
+    "balance": 79479.75,
     "transactions": [
+      {
+        "date": "2026-05-09T10:37:54.009Z",
+        "desc": "Перевод Иван Бурнашов",
+        "amount": -520.25
+      },
       {
         "date": "2026-05-09T10:35:28.731Z",
         "desc": "Перевод Иван Бурнашов",
@@ -21,8 +26,13 @@
   {
     "username": "Иван Бурнашов",
     "password": "31052015Ivan",
-    "balance": 20000,
+    "balance": 20520.25,
     "transactions": [
+      {
+        "date": "2026-05-09T10:37:54.009Z",
+        "desc": "Перевод от admin",
+        "amount": 520.25
+      },
       {
         "date": "2026-05-09T10:35:28.731Z",
         "desc": "Перевод от admin",
