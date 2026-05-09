@@ -1,12 +1,1 @@
-[
-  {
-    "airline": "",
-    "flight": "",
-    "city": "",
-    "scheduledTime": "",
-    "actualTime": "",
-    "statusType": "По расписанию",
-    "statusDetail": "Задержка 45 мин",
-    "type": 0
-  }
-]
+[]
