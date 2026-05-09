@@ -100,5 +100,16 @@
     "businessCreated": true,
     "businessBalance": 0,
     "businessTransactions": []
+  },
+  {
+    "username": "EdinorogYT4",
+    "password": " 676767",
+    "balance": 0,
+    "transactions": [],
+    "isAdmin": false,
+    "blocked": false,
+    "businessCreated": false,
+    "businessBalance": 0,
+    "businessTransactions": []
   }
 ]
