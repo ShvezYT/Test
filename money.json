@@ -2,8 +2,13 @@
   {
     "username": "admin",
     "password": "Admin123!",
-    "balance": 79479.75,
+    "balance": 54479.75,
     "transactions": [
+      {
+        "date": "2026-05-09T10:48:58.541Z",
+        "desc": "Перевод Ксения Прокофьева",
+        "amount": -25000
+      },
       {
         "date": "2026-05-09T10:37:54.009Z",
         "desc": "Перевод Иван Бурнашов",
@@ -45,8 +50,14 @@
   {
     "username": "Ксения Прокофьева",
     "password": "3579",
-    "balance": 0,
-    "transactions": [],
+    "balance": 25000,
+    "transactions": [
+      {
+        "date": "2026-05-09T10:48:58.541Z",
+        "desc": "Перевод от admin",
+        "amount": 25000
+      }
+    ],
     "isAdmin": false,
     "blocked": false
   }
