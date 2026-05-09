@@ -2,7 +2,7 @@
   {
     "flight": "0001",
     "direction": "departure",
-    "statusType": "Задержан",
+    "statusType": "Вылетел",
     "type": 2,
     "airline": {
       "ru": "S7 Airlines",
