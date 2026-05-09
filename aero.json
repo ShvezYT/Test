@@ -1,12 +1,12 @@
 [
   {
-    "airline": "",
-    "flight": "",
-    "city": "",
-    "scheduledTime": "",
-    "actualTime": "",
-    "statusType": "ÐÐ¾ ÑÐ°ÑÐ¿Ð¸ÑÐ°Ð½Ð¸Ñ",
+    "airline": "еег",
+    "flight": "прпрп",
+    "city": "рпрпр",
+    "scheduledTime": "прпрррррп",
+    "actualTime": "прпрп",
+    "statusType": "Вылетел",
     "statusDetail": "",
-    "type": 0
+    "type": 5
   }
 ]
