@@ -50,53 +50,53 @@
     }
   },
   {
-    "flight": "",
-    "direction": "departure",
+    "flight": "мьмь",
+    "direction": "arrival",
     "statusType": "По расписанию",
     "type": 0,
     "airline": {
-      "ru": "",
-      "en": ""
+      "ru": "тм",
+      "en": "ьмь"
     },
     "city": {
-      "ru": "",
-      "en": ""
+      "ru": "мььмь",
+      "en": "ьм"
     },
     "scheduledTime": {
-      "ru": "",
-      "en": ""
+      "ru": "мь",
+      "en": "ьмьм"
     },
     "actualTime": {
-      "ru": "",
-      "en": ""
+      "ru": "мь",
+      "en": "ьм"
     },
     "statusDetail": {
-      "ru": "",
-      "en": ""
+      "ru": "мьмь",
+      "en": "ьмьмь"
     },
     "aircraft": {
-      "ru": "",
-      "en": ""
+      "ru": "м",
+      "en": "мь"
     },
     "checkInDesk": {
-      "ru": "",
-      "en": ""
+      "ru": "мьмь",
+      "en": "мь"
     },
     "gate": {
-      "ru": "",
-      "en": ""
+      "ru": "мьм",
+      "en": "ьмьм"
     },
     "baggageBelt": {
-      "ru": "",
-      "en": ""
+      "ru": "ьм",
+      "en": "ьмь"
     },
     "checkInStart": {
-      "ru": "",
-      "en": ""
+      "ru": "мьмьм",
+      "en": "ьм"
     },
     "boardingStart": {
-      "ru": "",
-      "en": ""
+      "ru": "ь",
+      "en": "ьмь"
     }
   }
 ]
