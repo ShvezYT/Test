@@ -41,5 +41,13 @@
     ],
     "isAdmin": false,
     "blocked": false
+  },
+  {
+    "username": "Ксения Прокофьева",
+    "password": "3579",
+    "balance": 0,
+    "transactions": [],
+    "isAdmin": false,
+    "blocked": false
   }
 ]
