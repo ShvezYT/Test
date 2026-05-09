@@ -15,5 +15,22 @@
     "baggageBelt": "-",
     "checkInStart": "8PM",
     "boardingStart": "-"
+  },
+  {
+    "airline": "",
+    "flight": "",
+    "direction": "departure",
+    "city": "",
+    "scheduledTime": "",
+    "actualTime": "",
+    "statusType": "По расписанию",
+    "statusDetail": "",
+    "type": 0,
+    "aircraft": "",
+    "checkInDesk": "",
+    "gate": "",
+    "baggageBelt": "",
+    "checkInStart": "",
+    "boardingStart": ""
   }
 ]
