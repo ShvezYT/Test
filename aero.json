@@ -18,5 +18,15 @@
     "statusType": "Задержан",
     "statusDetail": "Задержка 30 мин",
     "type": 7
+  },
+  {
+    "airline": "",
+    "flight": "",
+    "city": "",
+    "scheduledTime": "",
+    "actualTime": "",
+    "statusType": "По расписанию",
+    "statusDetail": "",
+    "type": 0
   }
 ]
