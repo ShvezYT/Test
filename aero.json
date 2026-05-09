@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "airline": "S7 Airlines",
+    "flight": "0001",
+    "direction": "departure",
+    "city": "PEE",
+    "scheduledTime": "Check-in desk ended 9PM",
+    "actualTime": "-",
+    "statusType": "Задержан",
+    "statusDetail": "45 min",
+    "type": 7,
+    "aircraft": "Airbus",
+    "checkInDesk": "-",
+    "gate": "-",
+    "baggageBelt": "-",
+    "checkInStart": "8PM",
+    "boardingStart": "-"
+  }
+]
