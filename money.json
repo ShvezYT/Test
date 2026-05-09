@@ -77,7 +77,7 @@
     ],
     "isAdmin": false,
     "blocked": false,
-    "businessCreated": false,
+    "businessCreated": true,
     "businessBalance": 0,
     "businessTransactions": []
   }
