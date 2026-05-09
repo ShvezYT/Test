@@ -50,14 +50,25 @@
     "isAdmin": false,
     "blocked": false,
     "businessCreated": true,
-    "businessBalance": 0,
-    "businessTransactions": []
+    "businessBalance": 123,
+    "businessTransactions": [
+      {
+        "date": "2026-05-09T10:56:07.693Z",
+        "desc": "Оплата от Ксения Прокофьева по QR",
+        "amount": 123
+      }
+    ]
   },
   {
     "username": "Ксения Прокофьева",
     "password": "3579",
-    "balance": 25000,
+    "balance": 24877,
     "transactions": [
+      {
+        "date": "2026-05-09T10:56:07.693Z",
+        "desc": "Оплата бизнеса Иван Бурнашов (QR)",
+        "amount": -123
+      },
       {
         "date": "2026-05-09T10:48:58.541Z",
         "desc": "Перевод от admin",
