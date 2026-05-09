@@ -9,12 +9,12 @@
       "en": "S7 Airlines"
     },
     "city": {
-      "ru": "PEE",
-      "en": "PEE"
+      "ru": "Пермь (PEE)",
+      "en": "Perm (PEE)"
     },
     "scheduledTime": {
-      "ru": "Регистрация окончена в 9:00",
-      "en": "Check-in desk ended 9PM"
+      "ru": "Вылет в 11:20",
+      "en": "Departure at 11:20 AM"
     },
     "actualTime": {
       "ru": "Задержан до 11:45",
@@ -42,7 +42,7 @@
     },
     "checkInStart": {
       "ru": "8:00",
-      "en": "8PM"
+      "en": "8AM"
     },
     "boardingStart": {
       "ru": "-",
