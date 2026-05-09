@@ -39,8 +39,13 @@
   {
     "username": "Иван Бурнашов",
     "password": "31052015Ivan",
-    "balance": 20397.25,
+    "balance": 10397.25,
     "transactions": [
+      {
+        "date": "2026-05-09T11:34:26.554Z",
+        "desc": "Оплата бизнеса Ксю (QR)",
+        "amount": -10000
+      },
       {
         "date": "2026-05-09T11:00:45.153Z",
         "desc": "Перевод пользователю Ксю",
@@ -108,8 +113,14 @@
     "isAdmin": false,
     "blocked": false,
     "businessCreated": true,
-    "businessBalance": 0,
-    "businessTransactions": []
+    "businessBalance": 10000,
+    "businessTransactions": [
+      {
+        "date": "2026-05-09T11:34:26.554Z",
+        "desc": "Оплата от Иван Бурнашов по QR",
+        "amount": 10000
+      }
+    ]
   },
   {
     "username": "EdinorogYT4",
