@@ -44,7 +44,8 @@
     "blocked": false,
     "businessCreated": false,
     "businessBalance": 0,
-    "businessTransactions": []
+    "businessTransactions": [],
+    "businessName": ""
   },
   {
     "username": "Иван Бурнашов",
@@ -82,13 +83,19 @@
         "desc": "Оплата от Ксения Прокофьева по QR",
         "amount": 123
       }
-    ]
+    ],
+    "businessName": ""
   },
   {
     "username": "Ксю",
     "password": "3579",
-    "balance": 10000,
+    "balance": 9000,
     "transactions": [
+      {
+        "date": "2026-05-09T11:59:52.854Z",
+        "desc": "Оплата бизнесу \"undefined\" (комиссия 100₽)",
+        "amount": -1000
+      },
       {
         "date": "2026-05-09T11:20:12.868Z",
         "desc": "Перевод пользователю admin",
@@ -130,7 +137,8 @@
         "desc": "Оплата от Иван Бурнашов по QR",
         "amount": 10000
       }
-    ]
+    ],
+    "businessName": ""
   },
   {
     "username": "EdinorogYT4",
@@ -151,7 +159,14 @@
     "isAdmin": false,
     "blocked": false,
     "businessCreated": true,
-    "businessBalance": 0,
-    "businessTransactions": []
+    "businessBalance": 900,
+    "businessTransactions": [
+      {
+        "date": "2026-05-09T11:59:52.854Z",
+        "desc": "Оплата от Ксю по QR (комиссия 100₽)",
+        "amount": 900
+      }
+    ],
+    "businessName": ""
   }
 ]
