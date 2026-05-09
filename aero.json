@@ -3,7 +3,7 @@
     "flight": "0001",
     "direction": "departure",
     "statusType": "Вылетел",
-    "type": 2,
+    "type": 1,
     "airline": {
       "ru": "S7 Airlines",
       "en": "S7 Airlines"
