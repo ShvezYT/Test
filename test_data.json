@@ -691,6 +691,12 @@
         "correctCount": 2
       },
       {
+        "studentName": "Калинин Егор",
+        "completedAt": "2026-05-26T11:04:57.939Z",
+        "durationMs": 393800,
+        "correctCount": 2
+      },
+      {
         "studentName": "Бурнашов Иван",
         "completedAt": "2026-05-26T08:43:18.791Z",
         "durationMs": 28593,
