@@ -4608,8 +4608,22 @@
     ]
   },
   "class4k_poll": {
-    "startTime": null,
-    "completions": [],
+    "startTime": "2026-05-26T08:17:06.126Z",
+    "completions": [
+      {
+        "studentName": "Бурнашов Иван",
+        "completedAt": "2026-05-26T08:17:06.126Z",
+        "duration": 0,
+        "answers": [
+          "Осипова Орисия Юрьевна",
+          "5 апреля",
+          "4",
+          "23, 24",
+          "1969 год"
+        ],
+        "correctCount": 1
+      }
+    ],
     "studentQuestions": {
       "Бурнашов Иван": [
         {
