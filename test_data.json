@@ -655,6 +655,12 @@
     "startTime": null,
     "completions": [
       {
+        "studentName": "Харисов Роберт",
+        "completedAt": "2026-05-26T10:57:43.792Z",
+        "durationMs": 124068,
+        "correctCount": 4
+      },
+      {
         "studentName": "Бурнашов Иван",
         "completedAt": "2026-05-26T08:43:18.791Z",
         "durationMs": 28593,
