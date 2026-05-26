@@ -4553,4 +4553,14 @@
       "timestamp": "2026-03-18T08:52:31.734Z"
     }
   ],
+  "class4k_poll": {
+    "startTime": "2026-05-26T07:19:38.456Z",
+    "completions": [
+      {
+        "studentName": "Бурнашов Иван",
+        "completedAt": "2026-05-26T07:19:38.456Z",
+        "duration": 15111
+      }
+    ]
+  }
 }
