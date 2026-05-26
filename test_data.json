@@ -679,6 +679,12 @@
         "correctCount": 3
       },
       {
+        "studentName": "Маргарян Артём",
+        "completedAt": "2026-05-26T11:00:58.335Z",
+        "durationMs": 81386,
+        "correctCount": 2
+      },
+      {
         "studentName": "Бурнашов Иван",
         "completedAt": "2026-05-26T08:43:18.791Z",
         "durationMs": 28593,
