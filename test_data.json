@@ -654,6 +654,9 @@
   "class4k_poll": {
     "startTime": null,
     "completions": [],
-    "studentQuestions": {}
+    "studentQuestions": {},
+    "studentStartTime": {
+      "Бурнашов Иван": "2026-05-26T08:42:50.198Z"
+    }
   }
 }
