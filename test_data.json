@@ -685,6 +685,12 @@
         "correctCount": 2
       },
       {
+        "studentName": "Новиков Павел",
+        "completedAt": "2026-05-26T11:01:54.733Z",
+        "durationMs": 362630,
+        "correctCount": 2
+      },
+      {
         "studentName": "Бурнашов Иван",
         "completedAt": "2026-05-26T08:43:18.791Z",
         "durationMs": 28593,
