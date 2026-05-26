@@ -673,6 +673,12 @@
         "correctCount": 3
       },
       {
+        "studentName": "Пермяков Дмитрий",
+        "completedAt": "2026-05-26T10:59:31.426Z",
+        "durationMs": 460759,
+        "correctCount": 3
+      },
+      {
         "studentName": "Бурнашов Иван",
         "completedAt": "2026-05-26T08:43:18.791Z",
         "durationMs": 28593,
