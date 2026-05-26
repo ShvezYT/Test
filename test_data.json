@@ -653,7 +653,14 @@
   "homeworks": {},
   "class4k_poll": {
     "startTime": null,
-    "completions": [],
+    "completions": [
+      {
+        "studentName": "Бурнашов Иван",
+        "completedAt": "2026-05-26T08:43:18.791Z",
+        "durationMs": 28593,
+        "correctCount": 0
+      }
+    ],
     "studentQuestions": {
       "Бурнашов Иван": [
         {
