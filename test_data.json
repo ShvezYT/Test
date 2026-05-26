@@ -4536,20 +4536,3 @@
   "admin_password": "EcoSchool",
   "tech_works": false,
   "custom_tests": [],
-  "polls": [
-    {
-      "studentName": "Бурнашов Иван",
-      "vote": "site",
-      "timestamp": "2026-03-05T07:39:24.743Z"
-    },
-    {
-      "studentName": "Валиуллина Вероника",
-      "vote": "site",
-      "timestamp": "2026-03-17T10:00:13.665Z"
-    },
-    {
-      "studentName": "Ненастьева Василиса",
-      "vote": "site",
-      "timestamp": "2026-03-18T08:52:31.734Z"
-    }
-  ]
