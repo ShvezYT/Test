@@ -661,6 +661,12 @@
         "correctCount": 4
       },
       {
+        "studentName": "Ненастьева Василиса",
+        "completedAt": "2026-05-26T10:58:07.497Z",
+        "durationMs": 67544,
+        "correctCount": 3
+      },
+      {
         "studentName": "Бурнашов Иван",
         "completedAt": "2026-05-26T08:43:18.791Z",
         "durationMs": 28593,
