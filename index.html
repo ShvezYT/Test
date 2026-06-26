@@ -232,10 +232,10 @@
     <script>
         // ------------------- КОНФИГУРАЦИЯ -------------------
         const REPO_OWNER = "ShvezYT";
-        const REPO_NAME = "BlueFI";
-        const FILE_PATH = "banpc.json";
+        const REPO_NAME = "Test";
+        const FILE_PATH = "pcban.json";
         const BRANCH = "main";
-        const TOKEN = "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"; // ✅ ВАШ ТОКЕН ВСТАВЛЕН
+        const TOKEN = "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"; // Ваш токен
 
         const RAW_URL = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/${FILE_PATH}`;
         const API_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`;
@@ -321,9 +321,9 @@
             const getResp = await fetch(API_URL, { headers });
             if (!getResp.ok) {
                 if (getResp.status === 404) {
-                    throw new Error('Файл banpc.json не найден. Создайте его вручную.');
+                    throw new Error('Файл pcban.json не найден. Создайте его вручную.');
                 }
-                throw new Error(`Не удалось получить файл: ${getResp.status} ${getResp.statusText}`);
+                throw new Error(`Не удалось получить файл: ${getResp.status}`);
             }
             const fileData = await getResp.json();
             const sha = fileData.sha;
