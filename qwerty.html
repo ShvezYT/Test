@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔒 Управление блокировкой ПК</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            width: 100%;
+            max-width: 500px;
+            transition: all 0.3s;
+        }
+        h1 {
+            font-size: 28px;
+            margin-top: 0;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .sub {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .status-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin-bottom: 25px;
+            border-left: 5px solid #28a745;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: border-color 0.3s;
+            cursor: pointer;
+        }
+        .status-card.locked {
+            border-left-color: #dc3545;
+            background: #fff5f5;
+        }
+        .status-label {
+            font-weight: 600;
+            font-size: 16px;
+        }
+        .status-value {
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .status-value.free { color: #28a745; }
+        .status-value.locked { color: #dc3545; }
+
+        .input-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .input-group label {
+            font-weight: 600;
+            font-size: 15px;
+        }
+        .input-group input[type="number"] {
+            flex: 1;
+            min-width: 80px;
+            padding: 8px 12px;
+            font-size: 18px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            transition: border-color 0.2s;
+        }
+        .input-group input[type="number"]:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        .input-group span {
+            font-size: 16px;
+            color: #555;
+        }
+
+        button {
+            background: #dc3545;
+            color: white;
+            border: none;
+            padding: 14px 20px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: 600;
+            transition: background 0.2s, transform 0.1s;
+        }
+        button:hover:not(:disabled) {
+            background: #c82333;
+        }
+        button:active:not(:disabled) {
+            transform: scale(0.97);
+        }
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        #log {
+            margin-top: 25px;
+            background: #f1f3f5;
+            border-radius: 8px;
+            padding: 12px 15px;
+            max-height: 150px;
+            overflow-y: auto;
+            font-size: 13px;
+            color: #333;
+            border: 1px solid #e0e0e0;
+        }
+        #log p {
+            margin: 4px 0;
+            padding: 2px 0;
+            border-bottom: 1px dashed #e0e0e0;
+        }
+        #log p:last-child {
+            border-bottom: none;
+        }
+        .log-time {
+            color: #888;
+            margin-right: 8px;
+        }
+        .log-error { color: #dc3545; }
+        .log-success { color: #28a745; }
+        .log-info { color: #007bff; }
+
+        /* Toast notifications */
+        #toast-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 380px;
+            width: 100%;
+        }
+        .toast {
+            background: #333;
+            color: white;
+            padding: 14px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            animation: slideIn 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14px;
+            border-left: 5px solid #007bff;
+        }
+        .toast.success { border-left-color: #28a745; }
+        .toast.error { border-left-color: #dc3545; background: #2d1e1e; }
+        .toast.info { border-left-color: #17a2b8; }
+        .toast .toast-icon {
+            font-size: 20px;
+        }
+        .toast .toast-close {
+            margin-left: auto;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            opacity: 0.7;
+        }
+        .toast .toast-close:hover { opacity: 1; }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; transform: translateX(50px); }
+        }
+        .toast.hiding {
+            animation: fadeOut 0.3s forwards;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Блокировка ПК</h1>
+        <div class="sub">Управление через GitHub</div>
+
+        <div class="status-card" id="statusCard">
+            <span class="status-label">Текущий статус:</span>
+            <span class="status-value" id="statusValue">Загрузка...</span>
+        </div>
+
+        <form id="blockForm">
+            <div class="input-group">
+                <label for="minutes">Время (мин):</label>
+                <input type="number" id="minutes" min="1" max="1440" value="60" required>
+                <span>мин</span>
+            </div>
+            <button type="submit" id="blockBtn">🔒 Заблокировать</button>
+        </form>
+
+        <div id="log">
+            <p><span class="log-time">[Система]</span> Готов к работе</p>
+        </div>
+    </div>
+
+    <!-- Контейнер для тостов -->
+    <div id="toast-container"></div>
+
+    <script>
+        // ------------------- КОНФИГУРАЦИЯ -------------------
+        const REPO_OWNER = "ShvezYT";
+        const REPO_NAME = "BlueFI";
+        const FILE_PATH = "banpc.json";
+        const BRANCH = "main";
+        const TOKEN = "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"; // ✅ ВАШ ТОКЕН ВСТАВЛЕН
+
+        const RAW_URL = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/${FILE_PATH}`;
+        const API_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`;
+
+        // ------------------- DOM ЭЛЕМЕНТЫ -------------------
+        const statusValue = document.getElementById('statusValue');
+        const statusCard = document.getElementById('statusCard');
+        const minutesInput = document.getElementById('minutes');
+        const blockBtn = document.getElementById('blockBtn');
+        const logDiv = document.getElementById('log');
+        const form = document.getElementById('blockForm');
+
+        // ------------------- ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ -------------------
+        function addLog(message, type = 'info') {
+            const time = new Date().toLocaleTimeString();
+            const p = document.createElement('p');
+            p.innerHTML = `<span class="log-time">[${time}]</span> <span class="log-${type}">${message}</span>`;
+            logDiv.appendChild(p);
+            logDiv.scrollTop = logDiv.scrollHeight;
+            if (logDiv.children.length > 50) {
+                logDiv.removeChild(logDiv.firstChild);
+            }
+        }
+
+        function showToast(message, type = 'info', duration = 5000) {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            toast.className = `toast ${type}`;
+            const iconMap = {
+                success: '✅',
+                error: '❌',
+                info: 'ℹ️'
+            };
+            toast.innerHTML = `
+                <span class="toast-icon">${iconMap[type] || '📢'}</span>
+                <span>${message}</span>
+                <button class="toast-close">&times;</button>
+            `;
+            container.appendChild(toast);
+
+            toast.querySelector('.toast-close').addEventListener('click', () => {
+                hideToast(toast);
+            });
+
+            if (duration > 0) {
+                setTimeout(() => {
+                    hideToast(toast);
+                }, duration);
+            }
+        }
+
+        function hideToast(toast) {
+            if (toast.classList.contains('hiding')) return;
+            toast.classList.add('hiding');
+            setTimeout(() => {
+                if (toast.parentNode) toast.parentNode.removeChild(toast);
+            }, 300);
+        }
+
+        // ------------------- ЗАПРОСЫ К GITHUB -------------------
+        async function getCurrentStatus() {
+            try {
+                const resp = await fetch(RAW_URL, { cache: 'no-store' });
+                if (!resp.ok) {
+                    if (resp.status === 404) {
+                        return { blocked: false, time: 0 };
+                    }
+                    throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
+                }
+                return await resp.json();
+            } catch (err) {
+                console.warn('Ошибка получения статуса:', err);
+                throw err;
+            }
+        }
+
+        async function updateGitHub(blocked, timeSeconds) {
+            const headers = {
+                "Authorization": `token ${TOKEN}`,
+                "Accept": "application/vnd.github.v3+json"
+            };
+
+            const getResp = await fetch(API_URL, { headers });
+            if (!getResp.ok) {
+                if (getResp.status === 404) {
+                    throw new Error('Файл banpc.json не найден. Создайте его вручную.');
+                }
+                throw new Error(`Не удалось получить файл: ${getResp.status} ${getResp.statusText}`);
+            }
+            const fileData = await getResp.json();
+            const sha = fileData.sha;
+
+            const newContent = JSON.stringify({ blocked, time: timeSeconds }, null, 2);
+            const encodedContent = btoa(unescape(encodeURIComponent(newContent)));
+
+            const payload = {
+                message: `Обновление блокировки: ${blocked ? 'заблокирован' : 'свободен'}`,
+                content: encodedContent,
+                sha: sha,
+                branch: BRANCH
+            };
+
+            const putResp = await fetch(API_URL, {
+                method: "PUT",
+                headers: {
+                    ...headers,
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(payload)
+            });
+
+            if (!putResp.ok) {
+                const errText = await putResp.text();
+                throw new Error(`Ошибка записи: ${putResp.status} ${errText}`);
+            }
+
+            return await putResp.json();
+        }
+
+        // ------------------- ОБНОВЛЕНИЕ СТАТУСА -------------------
+        async function refreshStatus() {
+            try {
+                const data = await getCurrentStatus();
+                if (data && data.blocked === true) {
+                    const minutes = Math.floor(data.time / 60);
+                    statusValue.textContent = `🔒 Заблокирован (${minutes} мин)`;
+                    statusValue.className = 'status-value locked';
+                    statusCard.className = 'status-card locked';
+                } else {
+                    statusValue.textContent = '✅ Свободен';
+                    statusValue.className = 'status-value free';
+                    statusCard.className = 'status-card';
+                }
+                addLog(`Статус обновлён: ${data?.blocked ? 'заблокирован' : 'свободен'}`, 'info');
+            } catch (err) {
+                statusValue.textContent = '⚠️ Ошибка загрузки';
+                statusValue.className = 'status-value';
+                statusCard.className = 'status-card';
+                addLog(`Ошибка получения статуса: ${err.message}`, 'error');
+                showToast(`Не удалось проверить статус: ${err.message}`, 'error');
+            }
+        }
+
+        // ------------------- ОБРАБОТЧИК ФОРМЫ -------------------
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const minutes = parseInt(minutesInput.value);
+            if (isNaN(minutes) || minutes < 1) {
+                showToast('Введите корректное время (больше 0)', 'error');
+                return;
+            }
+            const seconds = minutes * 60;
+
+            blockBtn.disabled = true;
+            blockBtn.textContent = '⏳ Отправка...';
+            addLog(`Отправка команды на блокировку на ${minutes} мин...`, 'info');
+
+            try {
+                await updateGitHub(true, seconds);
+                showToast(`✅ Команда отправлена! ПК будет заблокирован на ${minutes} минут.`, 'success');
+                addLog(`✅ Блокировка успешно записана в GitHub`, 'success');
+                await refreshStatus();
+            } catch (err) {
+                showToast(`❌ Ошибка: ${err.message}`, 'error');
+                addLog(`❌ Ошибка: ${err.message}`, 'error');
+            } finally {
+                blockBtn.disabled = false;
+                blockBtn.textContent = '🔒 Заблокировать';
+            }
+        });
+
+        // ------------------- ИНИЦИАЛИЗАЦИЯ -------------------
+        (async function init() {
+            addLog('Загрузка текущего статуса...', 'info');
+            try {
+                await refreshStatus();
+                setInterval(refreshStatus, 30000);
+            } catch (e) {
+                showToast('Не удалось загрузить начальный статус', 'error');
+            }
+        })();
+
+        // Двойной клик по карточке – ручное обновление
+        statusCard.addEventListener('dblclick', async () => {
+            addLog('Обновление статуса вручную...', 'info');
+            await refreshStatus();
+            showToast('Статус обновлён', 'info', 2000);
+        });
+    </script>
+</body>
+</html>
